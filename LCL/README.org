@@ -1,0 +1,28 @@
+* Motivation
+
+  Not sure how I got this book. Just find it on my desktop today. And
+  I read some paragraph at the begining of this book.
+
+  I am fascinating by the following sentence:
+
+  #+BEGIN_QUOTE
+  Freedom is the power to decide what your computer does, and the only
+  way to have this freedom is to know what your computer is doing. 
+  #+END_QUOTE
+
+  This is something inline with someting deep in my mind. I am very
+  comfortable with play with computers via command line, but I want to
+  know more. Especially, I want to answer a question that initialize
+  this journey:
+
+  #+BEGIN_QUOTE
+  how to damage my computer using your code?
+  #+END_QUOTE
+
+* Progress
+
+* Notes
+
+* Questions
+
+* Exercises
