@@ -20,9 +20,10 @@
   #+END_QUOTE
 
 * Progress
+  
+  26/544 
 
 * Notes
-
+** Chapter 1
 * Questions
-
 * Exercises
