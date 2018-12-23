@@ -21,9 +21,14 @@
 
 * Progress
   
-  26/544 
+  40/544 
 
 * Notes
 ** Chapter 1
+
+   
+   - ~Alt + F1 to F7~: switch curtain
+   - Stephen R. Bourne: an mathmatician build the Bourne Shell
+
 * Questions
 * Exercises
