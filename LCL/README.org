@@ -21,7 +21,7 @@
 
 * Progress
   
-  46/544 /proc
+  58/544 Symbolic links
 
 * Notes
 ** Chapter 1
@@ -29,6 +29,8 @@
    
    - ~Alt + F1 to F7~: switch curtain
    - Stephen R. Bourne: an mathmatician build the Bourne Shell
+   - symbolic links could solve the naming a file that changes its
+     name
 
 * Questions
 * Exercises
