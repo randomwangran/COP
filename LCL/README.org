@@ -31,6 +31,7 @@
    - Stephen R. Bourne: an mathmatician build the Bourne Shell
    - symbolic links could solve the naming a file that changes its
      name
-
+   - create a new file ~> newfile~
+     
 * Questions
 * Exercises
