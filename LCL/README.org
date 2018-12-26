@@ -21,7 +21,7 @@
 
 * Progress
   
-  58/544 Symbolic links
+  80/544 Error redirecting
 
 * Notes
 ** Chapter 1
