@@ -21,7 +21,7 @@
 
 * Progress
   
-  80/544 Error redirecting
+  84/544 The superuser
 
 * Notes
 ** Chapter 1
