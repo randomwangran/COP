@@ -33,6 +33,12 @@
      name
    - create a new file ~> newfile~
    - joke: warning users that the system's /dev/null is already 98%
+   - create a easy file with easy info
+     #+BEGIN_SRC 
+     $ cat > dummy.tex
+     This is your input.
+     #+END_SRC
+     Then, ~Control + D~.
      
 * Questions
 * Exercises
