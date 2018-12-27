@@ -32,6 +32,7 @@
    - symbolic links could solve the naming a file that changes its
      name
    - create a new file ~> newfile~
+   - joke: warning users that the system's /dev/null is already 98%
      
 * Questions
 * Exercises
