@@ -21,12 +21,11 @@
 
 * Progress
   
-  84/544 The superuser
+  90/544 of course: Erector Set
 
 * Notes
 ** Chapter 1
 
-   
    - ~Alt + F1 to F7~: switch curtain
    - Stephen R. Bourne: an mathmatician build the Bourne Shell
    - symbolic links could solve the naming a file that changes its
@@ -39,6 +38,9 @@
      This is your input.
      #+END_SRC
      Then, ~Control + D~.
-     
+   - ~>~ can silently overwrite stuff, becareful.
+   - uniq: delete uncessary lines
+   - grep: -i ignore case
+
 * Questions
 * Exercises
