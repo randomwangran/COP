@@ -41,6 +41,24 @@
    - ~>~ can silently overwrite stuff, becareful.
    - uniq: delete uncessary lines
    - grep: -i ignore case
+** Chapter 7
+   - Brace Expansion: never use it before (cannot remember well)
+     
+     So powerful!
 
+     #+BEGIN_SRC sh
+     $ mkdir {2011..2019}-{01..12}
+     #+END_SRC
+     
+     Then I got a lots of subfolder!
+
+   - shell expansion:
+
+     #+BEGIN_QUOTE
+     Without a proper understanding of expansion, the shell will
+     always be a source of mystery and confusion, and much of its potential power wasted.
+     #+END_QUOTE
+     
+     I will stop at this point and do something to make my hands duty.
 * Questions
 * Exercises
