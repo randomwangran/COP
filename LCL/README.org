@@ -21,7 +21,7 @@
 
 * Progress
   
-  90/544 of course: Erector Set
+  90/544 of course: greeting from a cluster...
 
 * Notes
 ** Chapter 1
@@ -60,5 +60,7 @@
      #+END_QUOTE
      
      I will stop at this point and do something to make my hands duty.
+
+     Just want to do some good damage to this cluster, for sure just for practice.
 * Questions
 * Exercises
