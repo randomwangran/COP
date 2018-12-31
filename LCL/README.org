@@ -62,5 +62,28 @@
      I will stop at this point and do something to make my hands duty.
 
      Just want to do some good damage to this cluster, for sure just for practice.
+
+** Chapter 7+
+*** bash fork () Bomb
+
+    #+BEGIN_SRC sh
+    :(){:|:&
+    };:
+    #+END_SRC
+
+    In this function, the termination of the function ~;~, I double
+    checked on my old code, I never use them.
+
+    It seems no issue even on my productive cases.
+
+    The most dangerous part of piece of code is the ~:|:~ part, which
+    I seem have some remember in this chapter.
+
+    For example, what will happen when I do this:
+
+    #+BEGIN_SRC sh
+    cd | cd 
+    
+    #+END_SRC
 * Questions
 * Exercises
