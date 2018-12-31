@@ -82,8 +82,11 @@
     For example, what will happen when I do this:
 
     #+BEGIN_SRC sh
-    cd | cd 
-    
+    cd | cd
     #+END_SRC
+
+    EMM... nothing really happen...
+
+    What's wrong?
 * Questions
 * Exercises
