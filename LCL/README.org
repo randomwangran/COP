@@ -21,7 +21,7 @@
 
 * Progress
   
-  90/544 of course: greeting from a cluster...
+  90/544 of course: SHELL PARAMETER EXPANSION
 
 * Notes
 ** Chapter 1
@@ -88,5 +88,40 @@
     EMM... nothing really happen...
 
     What's wrong?
+*** TODO RTFM about shell expansion
+    - what is tokens?
+
+      "Expansion is performed on the command line after is has been
+      split into tokens."
+      
+      Not sure what is the defination of tokens.
+
+    - there's lots of expansion involing:
+      
+      - brace
+
+      - tilde
+
+      - parameter and varaible
+
+      - commmand subsitution
+
+      - arithmetic
+
+      - word splitting
+
+      - filename
+
+    - there's a rule to decide the order of those expansions
+
+    - I've learn a new word: "preamble"
+
+      I saw this word in a documention called "GLWTGPL"? Can remember
+      its exactly name.
+
+    - tide
+
+      I never use =~+/foo= before. It's equivenlent to =$PWD/foo=,
+      which might be useful
 * Questions
 * Exercises
