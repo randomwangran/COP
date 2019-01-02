@@ -108,6 +108,25 @@
 
       - arithmetic
 
+	I found that I used to 
+
+	#+BEGIN_SRC sh
+	$(bc <<< "${array[$INDEX]}")	
+	#+END_SRC
+
+	To calculate stuff.
+
+	Maybe try this simple one in the future:
+	#+BEGIN_SRC sh
+	#!bin/bash
+
+	a=1
+	b=2
+	c=$(( a + b ))
+
+	echo "$c"
+	#+END_SRC
+
       - word splitting
 
       - filename
