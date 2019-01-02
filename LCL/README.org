@@ -100,6 +100,21 @@
       
       - brace
 
+	Can really understand what brace expansion meanings:
+
+	#+BEGIN_SRC sh
+	REYNOLSNUMBER=(1 2 3)
+	count=${#REYNOLDSNUMBER[@]}
+	#+END_SRC
+
+	Can you explain why you use?
+
+	- #
+
+	- {}
+
+	- @
+	  
       - tilde
 
       - parameter and varaible
