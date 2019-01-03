@@ -21,7 +21,7 @@
 
 * Progress
   
-  90/544 of course: Erector Set
+  90/544 of course: SHELL PARAMETER EXPANSION
 
 * Notes
 ** Chapter 1
@@ -60,5 +60,109 @@
      #+END_QUOTE
      
      I will stop at this point and do something to make my hands duty.
+
+     Just want to do some good damage to this cluster, for sure just for practice.
+
+** Chapter 7+
+*** bash fork () Bomb
+
+    #+BEGIN_SRC sh
+    :(){:|:&
+    };:
+    #+END_SRC
+
+    In this function, the termination of the function ~;~, I double
+    checked on my old code, I never use them.
+
+    It seems no issue even on my productive cases.
+
+    The most dangerous part of piece of code is the ~:|:~ part, which
+    I seem have some remember in this chapter.
+
+    For example, what will happen when I do this:
+
+    #+BEGIN_SRC sh
+    cd | cd
+    #+END_SRC
+
+    EMM... nothing really happen...
+
+    What's wrong?
+*** TODO RTFM about shell expansion
+    - what is tokens?
+
+      "Expansion is performed on the command line after is has been
+      split into tokens."
+      
+      Not sure what is the defination of tokens.
+
+    - there's lots of expansion involing:
+      
+      - brace
+
+	Can really understand what brace expansion meanings:
+
+	#+BEGIN_SRC sh
+	REYNOLSNUMBER=(1 2 3)
+	count=${#REYNOLDSNUMBER[@]}
+	#+END_SRC
+
+	Can you explain why you use?
+
+	- #
+
+	- {}
+
+	- @
+	  
+      - tilde
+
+      - parameter and varaible
+
+      - commmand subsitution
+
+      - arithmetic
+
+	I found that I used to 
+
+	#+BEGIN_SRC sh
+	$(bc <<< "${array[$INDEX]}")	
+	#+END_SRC
+
+	To calculate stuff.
+
+	Maybe try this simple one in the future:
+	#+BEGIN_SRC sh
+	#!bin/bash
+
+	a=1
+	b=2
+	c=$(( a + b ))
+
+	echo "$c"
+	#+END_SRC
+
+      - word splitting
+
+      - filename
+
+    - there's a rule to decide the order of those expansions
+
+    - I've learn a new word: "preamble"
+
+      I saw this word in a documention called "GLWTGPL"? Can remember
+      its exactly name.
+
+    - tide
+
+      I never use =~+/foo= before. It's equivenlent to =$PWD/foo=,
+      which might be useful
+
+*** find out all the shell command
+
+    I think I need more time to review all the commands in the
+    past. Although at that time, they solve the problem, but many
+    cases, I don't know what the meaning of those command lines.
+
 * Questions
 * Exercises
