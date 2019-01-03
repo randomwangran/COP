@@ -157,5 +157,12 @@
 
       I never use =~+/foo= before. It's equivenlent to =$PWD/foo=,
       which might be useful
+
+*** find out all the shell command
+
+    I think I need more time to review all the commands in the
+    past. Although at that time, they solve the problem, but many
+    cases, I don't know what the meaning of those command lines.
+
 * Questions
 * Exercises
