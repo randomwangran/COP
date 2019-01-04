@@ -163,6 +163,21 @@
     I think I need more time to review all the commands in the
     past. Although at that time, they solve the problem, but many
     cases, I don't know what the meaning of those command lines.
+    
+**** tar big file
 
+     #+BEGIN_SRC sh
+     tar cf - XX | pigz -9 -p 24 > XX.tar.gz ; echo "Tar return = ${PIPESTATUS[0]}"	
+     #+END_SRC
+     
+     #+BEGIN_SRC sh
+     $ lfs setstripe -c -1 XX.tar.gz; 
+     $ tar cf - XX | pigz -9 -p 24 > XX.tar.gz; 
+     #+END_SRC
+     
+     - What is `lfs`?
+     - Why you setstripe?
+     - Why echo ${PIPESTATUS[0]}?
+     
 * Questions
 * Exercises
