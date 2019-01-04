@@ -12,7 +12,7 @@
 
   This is something inline with someting deep in my mind. I am very
   comfortable with play with computers via command line, but I want to
-  know more. Especially, I want to answer a question that initializies
+  know more. Especially, I want to answer a question that initializes
   this journey:
 
   #+BEGIN_QUOTE
