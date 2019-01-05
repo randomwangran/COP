@@ -176,6 +176,33 @@
      #+END_SRC
      
      - What is `lfs`?
+
+       I google lfs and [[http://www.linuxfromscratch.org/lfs/][find this page]]
+
+       I found the guy build this website is interesting.
+
+       #+BEGIN_QUOTE
+       A few of us have been working on creating a very small embedded LFS system. We installed a system that was just enough to run the Apache web server; total disk space usage was approximately 8 MB. With further stripping, that can be brought down to 5 MB or less. Try that with a regular distribution.
+       #+END_QUOTE
+
+       Sounds cool. Want to have a try.
+
+       #+BEGIN_QUOTE
+       You will compile the entire system from source
+       #+END_QUOTE
+       
+       Wow, sounds cool.
+
+       But, wait lfs is a command?
+
+       Yes! I double checked with mp2, it is a command!
+
+       #+BEGIN_QUOTE
+       lfs can be used to create a new file with a striping pattern.
+       #+END_QUOTE
+
+       The lfs I googleed is not the lfs I was used.
+
      - Why you setstripe?
      - Why echo ${PIPESTATUS[0]}?
      
