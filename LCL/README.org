@@ -163,9 +163,9 @@
     I think I need more time to review all the commands in the
     past. Although at that time, they solve the problem, but many
     cases, I don't know what the meaning of those command lines.
-    
-**** tar big file
 
+**** lfs
+***** tar big file
      #+BEGIN_SRC sh
      tar cf - XX | pigz -9 -p 24 > XX.tar.gz ; echo "Tar return = ${PIPESTATUS[0]}"	
      #+END_SRC
@@ -174,54 +174,55 @@
      $ lfs setstripe -c -1 XX.tar.gz; 
      $ tar cf - XX | pigz -9 -p 24 > XX.tar.gz; 
      #+END_SRC
-     
-     - What is `lfs`?
+***** What is `lfs`?
+     I google lfs and [[http://www.linuxfromscratch.org/lfs/][find this page]]
 
-       I google lfs and [[http://www.linuxfromscratch.org/lfs/][find this page]]
+     I found the guy build this website is interesting.
 
-       I found the guy build this website is interesting.
+     #+BEGIN_QUOTE
+     A few of us have been working on creating a very small embedded LFS system. We installed a system that was just enough to run the Apache web server; total disk space usage was approximately 8 MB. With further stripping, that can be brought down to 5 MB or less. Try that with a regular distribution.
+     #+END_QUOTE
 
-       #+BEGIN_QUOTE
-       A few of us have been working on creating a very small embedded LFS system. We installed a system that was just enough to run the Apache web server; total disk space usage was approximately 8 MB. With further stripping, that can be brought down to 5 MB or less. Try that with a regular distribution.
-       #+END_QUOTE
+     Sounds cool. Want to have a try.
 
-       Sounds cool. Want to have a try.
-
-       #+BEGIN_QUOTE
-       You will compile the entire system from source
-       #+END_QUOTE
+     #+BEGIN_QUOTE
+     You will compile the entire system from source
+     #+END_QUOTE
        
-       Wow, sounds cool.
+     Wow, sounds cool.
 
-       But, wait 'lfs' is a command?
+     But, wait 'lfs' is a command?
 
-       Yes! I double checked with mp2, it is a command!
+     Yes! I double checked with mp2, it is a command!
 
-       #+BEGIN_QUOTE
-       lfs can be used to create a new file with a striping pattern.
-       #+END_QUOTE
+     #+BEGIN_QUOTE
+     lfs can be used to create a new file with a striping pattern.
+     #+END_QUOTE
 
-       The lfs I googleed is not the lfs I was used.
+     The lfs I googleed is not the lfs I was used.
+***** what is striping for file system
 
-     - what is striping for file system
-       
-       [[https://www.nics.tennessee.edu/faq/general-what-file-striping][This artical]] is too technical for me. A file is said to be
-       striped when read and write operations access multiple object
-       storage targes? What does it mean?
-       
-       Then I try [[https://en.wikipedia.org/wiki/Data_striping][wiki]]. Not very hard to follow. Data stripping just
-       trick the stuip computer that I have a very big data and
-       physically store in differnt hard drive. But computer is tricked
-       by me :> 
-       
-       However, as I further think about it, I still found I do not
-       know about it. For example, [[https://www.techwalla.com/articles/how-to-combine-bin-files][when creating CDs, one need to
-       split it into a number of small one.]] Is this process similar to
-       the idea that I think I miss something
-       in how computer store data on a hard-disk.
+     [[https://www.nics.tennessee.edu/faq/general-what-file-striping][This artical]] is too technical for me. A file is said to be
+     striped when read and write operations access multiple object
+     storage targes? What does it mean?
 
-     - Why you setstripe?
-     - Why echo ${PIPESTATUS[0]}?
-     
+     Then I try [[https://en.wikipedia.org/wiki/Data_striping][wiki]]. Not very hard to follow. Data stripping just
+     trick the stuip computer that I have a very big data and
+     physically store in differnt hard drive. But computer is tricked
+     by me :> 
+
+     However, as I further think about it, I still found I do not
+     know about it. For example, [[https://www.techwalla.com/articles/how-to-combine-bin-files][when creating CDs, one need to
+     split it into a number of small one.]] Is this process similar to
+     the idea that I think I miss something
+     in how computer store data on a hard-disk.
+
+***** TODO Why you setstripe?
+***** TODO Why echo ${PIPESTATUS[0]}?
+*** TODO what is file-system to computer?
+    
+    Reading [[https://en.wikipedia.org/w/index.php?title=File_system&oldid=877114028][wiki.]]
+    
+    End up revising [[https://en.wikipedia.org/w/index.php?title=File_system&oldid=877114028][wiki]].
 * Questions
 * Exercises
