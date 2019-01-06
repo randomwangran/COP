@@ -193,7 +193,7 @@
        
        Wow, sounds cool.
 
-       But, wait lfs is a command?
+       But, wait 'lfs' is a command?
 
        Yes! I double checked with mp2, it is a command!
 
@@ -202,6 +202,23 @@
        #+END_QUOTE
 
        The lfs I googleed is not the lfs I was used.
+
+     - what is striping for file system
+       
+       [[https://www.nics.tennessee.edu/faq/general-what-file-striping][This artical]] is too technical for me. A file is said to be
+       striped when read and write operations access multiple object
+       storage targes? What does it mean?
+       
+       Then I try [[https://en.wikipedia.org/wiki/Data_striping][wiki]]. Not very hard to follow. Data stripping just
+       trick the stuip computer that I have a very big data and
+       physically store in differnt hard drive. But computer is tricked
+       by me :> 
+       
+       However, as I further think about it, I still found I do not
+       know about it. For example, [[https://www.techwalla.com/articles/how-to-combine-bin-files][when creating CDs, one need to
+       split it into a number of small one.]] Is this process similar to
+       the idea that I think I miss something
+       in how computer store data on a hard-disk.
 
      - Why you setstripe?
      - Why echo ${PIPESTATUS[0]}?
