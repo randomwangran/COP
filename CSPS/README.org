@@ -1,0 +1,20 @@
+* progress
+
+  25/342 2.2 resource
+
+* chapter 01
+** notes
+*** 100 faster 
+    cool, IBM 704 and you guys wanna build a new computer 100 faster
+    than it? If I were one of the people working on that project, I
+    would probaly say impossible. What a brave heart.
+*** you can do it just a mater of time
+    #+BEGIN_QUOTE
+    In practical, however, any general-purpose computer can do any
+    programmable problem, given enough time.
+    #+END_QUOTE
+*** I had a dream
+    to build my computer to just run my emacs to do my daily jobs. Just
+    like what I do right now.
+** questions
+** a-ha
