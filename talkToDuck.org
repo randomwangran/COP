@@ -1,3 +1,67 @@
 * what is strcpy() yuejie?
 
+  I am not sure what 'yuejie'(cross-boundary) means. If one copy a
+  string, the coder should have some basics ideas what he is
+  copying. The coder will then declare large enough storage to handle
+  such situation. Why this happen?
+
+  I follow you suggestion to usge Google, which is a great idea, [[https://stackoverflow.com/questions/32136185/difference-between-strcpy-and-strcpy-s][I
+  found this discussion.]]
+
+  Do you mean the following message is a indication of 'yuejie'?
+
+  #+BEGIN_SRC 
+  error C4996 'strcpy': This function or variable may be unsafe.
+  #+END_SRC
+
+  A user, Deadlock, said:
+  #+BEGIN_QUOTE
+  strcpy is a unsafe funtion. When you try to copy a string using
+  strcpy(), to a buffer which is not large enough to contain it, it
+  will cause a buffer overflow.
+  #+END_QUOTE
+
+  - why it is unsafe?
+  - what is buffer?
+    Is 'buffer' a set of memery adresses? For example, like a box? In
+    the box, you can put as much as possible pingpang ball. If you
+    keep putting pingpang ball into that box, you will end up the
+    space of that box. Can you explain a little bit more? What is a
+    buffer? How big it is? How you define its size?
+ 
   
+  The author continue to mention:
+  #+BEGIN_QUOTE
+  strcpy_s() is a security enhanced version of strcpy(). With strcpy_s
+  you can specify the size of the destination buffer to avoid buffer
+  overflows during copies.
+  #+END_QUOTE
+
+  To what extend you can claim that ~strcpy_s~ is more secure than
+  ~strcpy~? In terms of size? I do believe ~strcpy~ do not force coder
+  to think the size of thing passing into it.
+
+  Another use, Aki Suihkonmen, mentioned an interesting point:
+  #+BEGIN_QUOTE
+  This can be achieved with strncpy as well. The _s adds checking for
+  NULL pointers
+  #+END_QUOTE
+    
+  Can you explain how _s checking for NULL pointers?
+
+  I read the concetp of buffer:
+
+  #+BEGIN_QUOTE
+  In computer science, a data buffer (or just buffer) is a region of a
+  physical memory storage used to temporarily store data while it is
+  being moved from one place to another.
+  #+END_QUOTE
+
+  Are you talking about this kind of buffer? What is physical memory
+  storage really means? If a user hava a harddrive and working
+  good and with a decent capcity storing data (for example 1TB). If
+  you write a piece of code and it is 2TB. However, another user might
+  have a 3TB harddrive, will you consider the unsafe code will cause
+  'yuejie'?
+
+  How you exactly define 'yuejie'?
