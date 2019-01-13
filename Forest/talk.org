@@ -79,21 +79,65 @@ stuff to people.
 If too much effort has been done by one people, the other people might
 feel a huge budern on it, so the interaction will become more hard.
 
-- Yeah, I understand that I shouldn't be afraid of making
-  mistakes... in theory. However, it is still a challenge to persuade
-  myself to do so in practice lol. (Thanks for the suggestion about
-  grammar checker; though I don't have one on my text editor, I do
-  have a basic spell checker turned on)
+#+BEGIN_QUOTE
+Yeah, I understand that I shouldn't be afraid of making mistakes... in
+theory. However, it is still a challenge to persuade myself to do so
+in practice lol. (Thanks for the suggestion about grammar checker;
+though I don't have one on my text editor, I do have a basic spell
+checker turned on)
+#+END_QUOTE
 
-- For lull I mean "an interval of lessened activity," though I'm not
-  sure whether this is the correct way to use the term. In fact I've
-  just picked up this word a few days prior to writing this post when
-  I was reading a friction and this term is used to describe a period
-  of silence during conversation.
+I was wondering what's your are afraid. I might wrong. I do not afraid
+of making mistake may have extremely cases where the fatal accidents
+could occur. But, here, writing something to a friend, talking
+something that we both interested in (I assumed you interested in what
+you wrote in your blog. (If I were you, someone who want to talk to
+me (for example, [[https://scholar.uwindsor.ca/etd/7584/][my thesis]], I would talk to him/her forever (because
+the question is so hard yet so interesting to me)))). I asked a
+five-year-old girl today about [[https://en.wikipedia.org/wiki/Navier-Stokes_equations][N.S.]] equation, which she was interested
+in talking to me. I teach her some basic idea what's fluid is. Maybe,
+it takes decades for her to understand what's the Navier–Stokes
+equations really is. But it does't matter. As long as she keeps asking
+me what is, I will try my best to explain to her. If you thinking this
+is a waste of time, I would like to say: no, it is not. It's a mutual
+process. To teach her, I also improve my understanding of
+N.S. equation every single day. This is, in my opinion, fun. I would
+like to listen to your idea about this kinda idea.
 
-- I took a look at your blog (the archive that you linked to), and
-  found that civil engineering is much harder than computer
-  science... what you wrote in the other post makes me want to cry.
+#+BEGIN_QUOTE
+For lull I mean "an interval of lessened activity," though I'm not
+sure whether this is the correct way to use the term. In fact I've
+just picked up this word a few days prior to writing this post when
+I was reading a friction and this term is used to describe a period
+of silence during conversation.
+#+END_QUOTE
+
+I think this is a great example of the mutual benifits. I learned
+something new from you. On the other hand, you deepen your
+understanding of lull, which I believe you will use this more often
+in future. That's why I love to talk to person like you. You honest
+with what you create, and I am interested in what you present to the
+world not necessary you. I think after my bad organization in Discuz,
+there is a lull between us. Not sure, I already frigenten you and may
+be you are not brave enough to read here.
+
+#+BEGIN_QUOTE
+I took a look at your blog (the archive that you linked to), and found
+that civil engineering is much harder than computer science... what
+you wrote in the other post makes me want to cry.
+#+END_QUOTE
+
+Why you think civil is hard than CS? Computer science is science,
+while civil engineering is enginerring. Generally speaking, science is
+harder than engineering. Becasue the later focus on the application
+not the reason. Why you think this idea? Also, why you want to cry?
+Which sentence you feel difference? Thanks for reading my old
+blog. Same to you, I never thought someone could read it oneday. But,
+why we do this. If we really do not want to let other people read our
+story, why we put them on the Internet? I think, in our deepest part
+of heart, we want somebody we care read the thoughts we have and the
+experience we had. No one really like lonely, just do not want to be
+disappointed.
 
 - For Jekyll, what I was looking for is the ability to set a password
   on some of my post so that they are not accessible to everybody,
