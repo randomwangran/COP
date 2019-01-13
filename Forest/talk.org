@@ -139,20 +139,31 @@ of heart, we want somebody we care read the thoughts we have and the
 experience we had. No one really like lonely, just do not want to be
 disappointed.
 
-- For Jekyll, what I was looking for is the ability to set a password
-  on some of my post so that they are not accessible to everybody,
-  because I don't want to reveal the dark side of myself to the entire
-  world (lol). That's a minor concern as for now because I can put
-  that sort of stuffs on somewhere else instead of my blog here.
+#+BEGIN_QUOTE
+For Jekyll, what I was looking for is the ability to set a password
+on some of my post so that they are not accessible to everybody,
+because I don't want to reveal the dark side of myself to the entire
+world (lol). That's a minor concern as for now because I can put
+that sort of stuffs on somewhere else instead of my blog here.
+#+END_QUOTE
 
-- React is a Javascript library - though it has its own syntax (JSX)
-  and uses ECMAScript (which is a "dialect" of Javascript) that needs
-  to be compile to vanilla Javascript in order to use on most of the
-  browser. Contrary to building website with HTML (or generating HTML
-  using server), website built by React has minimal HTML involved. All
-  you need is a single <div />, and when a website is loaded, the
-  browser loads the Javascript file and executes it to generate the
-  rest of the contents.
+What is the dark side? If you do not want share it, it does not
+mater. If you are talking about secret, my suggestion is that do type
+those stuff on computers, even on the paper. Computer is not 100%
+security. You are a CS student, you know this much better than me. I
+was wondering where you put that sort of things? If you do want to
+share, just ignore it. It's totally okay.
+
+#+BEGIN_QUOTE
+React is a Javascript library - though it has its own syntax (JSX) and
+uses ECMAScript (which is a "dialect" of Javascript) that needs to be
+compile to vanilla Javascript in order to use on most of the
+browser. Contrary to building website with HTML (or generating HTML
+using server), website built by React has minimal HTML involved. All
+you need is a single <div />, and when a website is loaded, the
+browser loads the Javascript file and executes it to generate the rest
+of the contents.
+#+END_QUOTE
 
 - Flask definitely requires installation (I google the sentence you
   quote and found the readme file here, which seems to be the
