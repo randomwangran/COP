@@ -1,10 +1,16 @@
-This is Ran's journey to see the world of 0/1.
-
-
-# Motivation
+* Motivation
 
 Computers are stupid. They can only understand 0/1, but the world today would be a different world without them.
 
 How these monsters who only know 1/0 can predict the Drag coefficient with amazing accuracy?
 
 This is where the journey begains. I want to see them. 
+
+
+* questions
+
+** what is token?
+   When I reading [[https://zhuanlan.zhihu.com/p/21314708][a cpp idea about SFINAE]], I do not know what is
+   token. [[https://en.wikipedia.org/wiki/Security_token][The wiki page is interesting]]. What is One PIN to remember?
+   What is two-factor authentication? Does you car key pose a security
+   risk?
