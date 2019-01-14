@@ -14,3 +14,5 @@ This is where the journey begains. I want to see them.
    token. [[https://en.wikipedia.org/wiki/Security_token][The wiki page is interesting]]. What is One PIN to remember?
    What is two-factor authentication? Does you car key pose a security
    risk?
+   
+** [[study difference of this revision][https://en.wikipedia.org/w/index.php?title=File_system&oldid=877155126]]
