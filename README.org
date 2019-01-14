@@ -15,4 +15,4 @@ This is where the journey begains. I want to see them.
    What is two-factor authentication? Does you car key pose a security
    risk?
    
-** [[study difference of this revision][https://en.wikipedia.org/w/index.php?title=File_system&oldid=877155126]]
+** [[https://en.wikipedia.org/w/index.php?title=File_system&oldid=877155126][study difference of this revision]]
