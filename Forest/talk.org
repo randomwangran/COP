@@ -165,6 +165,33 @@ browser loads the Javascript file and executes it to generate the rest
 of the contents.
 #+END_QUOTE
 
+I know kinda know what React is. It's a javascript library. Similar to
+the c++ library. For a complicated system, the library itself,
+sometimes, become a lanuage. But at the end of the day, the code will
+be compiled into a lanuage, i.e., 0/1, to be understood by machine. I
+might naive about the point you mentioned about "website built by
+React has minimal HTML involved". Why this happen? For example, the
+very first web (1989 at CERN (by British scientist Tim Berners-Lee)) on the Internet:
+#+BEGIN_SRC html
+
+<html><head></head><body><header>
+<title>http://info.cern.ch</title>
+</header>
+
+<h1>http://info.cern.ch - home of the first website</h1>
+<p>From here you can:</p>
+<ul>
+<li><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">Browse the first website</a></li>
+<li><a href="http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html">Browse the first website using the line-mode browser simulator</a></li>
+<li><a href="http://home.web.cern.ch/topics/birth-web">Learn about the birth of the web</a></li>
+<li><a href="http://home.web.cern.ch/about">Learn about CERN, the physics laboratory where the web was born</a></li>
+</ul>
+</body></html>
+#+END_SRC
+
+I later read the history of the first Internet. [[http://info.cern.ch/hypertext/WWW/Proposal.html][The proposal is quit
+easy to follow.]]
+
 - Flask definitely requires installation (I google the sentence you
   quote and found the readme file here, which seems to be the
   precursor of Flask. If that's something you want to build, at least
