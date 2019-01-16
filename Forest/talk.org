@@ -192,8 +192,21 @@ very first web (1989 at CERN (by British scientist Tim Berners-Lee)) on the Inte
 I later read the history of the first Internet. [[http://info.cern.ch/hypertext/WWW/Proposal.html][The proposal is quit
 easy to follow.]]
 
-- Flask definitely requires installation (I google the sentence you
-  quote and found the readme file here, which seems to be the
-  precursor of Flask. If that's something you want to build, at least
-  you need to import what you need from the bottle.py, i.e. from
-  bottle import send_file, redirect, abort.
+But, how to achieve loading a website by using ~<div />~? From my
+understanding from your description, it seems that that Javascript
+file could generate the rest of the HTML file?
+
+
+#+BEGIN_QUOTE
+Flask definitely requires installation (I google the sentence you
+quote and found the readme file here, which seems to be the precursor
+of Flask. If that's something you want to build, at least you need to
+import what you need from the bottle.py, i.e. from bottle import
+send_file, redirect, abort.
+#+END_QUOTE
+
+"Flask definitely requires installation". But, It's quite different
+from Flask's wiki page: "It is classified as a microframework because
+it does not require particular tools or libraries" I revise the
+[[https://en.wikipedia.org/w/index.php?title=Flask_(web_framework)&oldid=878646094][Flask's wiki page]]. Not 100% sure it is correct. Please correct or
+improve the wiki page if you have better idea.
