@@ -11,6 +11,8 @@ class="highlighter-rouge">thehorizon.blue</code> before my server
 expired.</p> 
 =======================================================================
 
+I checked [[https://github.com/randomwangran/tracing/blob/55e050fb5ce2e024bb144aa7bbb300e861f921dd/public/index.html#L4-L23][the website]] you build from starch(scratch)? Pettry cool.
+
 GraphQL: a open-source data query and manipulation language for API...
 Sounds cool. But, why you website need such query system?
 
