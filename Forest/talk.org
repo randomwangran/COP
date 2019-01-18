@@ -1,18 +1,3 @@
-========================================================================
-One of the course I was taking at that time happened to have a final
-project requirement where I am free to develop anything, so I took the
-opportunity to rewrite my blog (as in <a
-href="https://github.com/horizon-blue/tracing">horizon-blue/tracing</a>). I
-reuse the same layout and the same frameworks (i.e. React, Flask,
-etc.); other than those, everything was written from starch. I’ve even
-include multilingual UI texts that can be toggle dynamically. It was a
-step closer to my ideal blog and was hosted on <code
-class="highlighter-rouge">thehorizon.blue</code> before my server
-expired.</p> 
-=======================================================================
-
-I checked [[https://github.com/randomwangran/tracing/blob/55e050fb5ce2e024bb144aa7bbb300e861f921dd/public/index.html#L4-L23][the website]] you build from starch(scratch)? Pettry cool.
-
 GraphQL: a open-source data query and manipulation language for API...
 Sounds cool. But, why you website need such query system?
 
@@ -59,6 +44,46 @@ dependencies`? Why you do not have courage? You are a computer science
 student, a master of computer science. If you want, I want to help you
 to fix the bad code together (I am not a good programmer, it could take
 years to finish).
+
+I checked [[https://github.com/randomwangran/tracing/blob/55e050fb5ce2e024bb144aa7bbb300e861f921dd/public/index.html#L4-L23][the website]] you build from starch(scratch)? very cool. What
+is multilingual UI texts? Do you mean that the user could drag
+somthing into the broswer, just just like we do google image search?
+What is your ideal blog? As far as I concerned, a blog is just a
+log. I did something in my life and log the the stuff I've done. There
+are there types of medium: text, picture, and video. Each of them have
+pros and cons. Text is simple and fast, but some times it is hard to
+make point easy understand, i.e. reaing [[https://wiki.archlinux.org/index.php/installation_guide][arch's wiki to install arch]] is
+hard. If you watch the video on [[https://www.youtube.com/watch?v=lizdpoZj_vU][youtube]], it's much easy. Pictures are
+my best friend, especially I need some info that need much visual
+content. What's your current choice of server? (by reading the next
+paragraph, I know you are using DigitalOcean)
+
+#+BEGIN_QUOTE
+However, with a self-hosting blog, I have to worry about maintaining
+my own server, keeping it running, avoiding some security issues, and
+a tons of other stuffs. There is also a small fee associate with the
+deployments (for those who are interested, I’ve been using <a
+href="https://www.digitalocean.com/">DigitalOcean</a>’s smallest
+droplet which cost $5 per month and come with free DNS. I’ve also
+tried <a href="https://aws.amazon.com/ec2/">Amazon EC2</a> that was
+included as part of <a href="https://aws.amazon.com/free/">AWS Free
+Tier</a>. Overall, AWS provides more options, yet it also requires
+more configurations and its pricing system is a bit more
+complicated). Besides, I enjoyed the feeling of having control at the
+beginning, yet after several months, such excitement gradually faded
+away, and I became tired of having to take care of everything on every
+detail. So I shut down my server and began looking for other
+alternative.
+#+END_QUOTE
+
+I don't have too much experience on maintaining stuff on my server,
+although I've my virtual private service (VPS). What's kinda of security
+issues have you met? What's tons of the other stuffs? Although I don't
+use VPS to host my blog, it cost me $21.91 each year. I use it mainly
+when I am back home. Currently, my static blog host on [[https://www.bitcron.com/][bitcron]], which
+costs me 60 rmb, which is around $10 a year.
+
+
 
 ## friend's reply
 
