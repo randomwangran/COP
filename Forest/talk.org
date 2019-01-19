@@ -81,8 +81,37 @@ although I've my virtual private service (VPS). What's kinda of security
 issues have you met? What's tons of the other stuffs? Although I don't
 use VPS to host my blog, it cost me $21.91 each year. I use it mainly
 when I am back home. Currently, my static blog host on [[https://www.bitcron.com/][bitcron]], which
-costs me 60 rmb, which is around $10 a year.
+costs me 60 rmb, which is around $10 a year. I also have some bad
+experience with AWS. They are so complicated for a newbiew. I can
+understand what you mean by "tired of having to take care of
+everything on every detail". Freedoom comes at cost. It's not saying
+that someone should give up to the freedom. As far as I concerned, I
+use [[https://github.com/kelseyhightower/nocode][nocode]] to develope the most critical stuff for myself. Anything
+that is related to the security of my life, I use [[https://github.com/kelseyhightower/nocode][nocode]] to develope
+them. From the current usage of it, I feel very good of using this
+awsome project. On the other hand, anything I put on the Internet,
+it's not directly related to my security. I am not saying that I 100%
+confidence what I've done on the Internet will somehow has some bugs
+that could be a dangerous to my life. That's the reason why I ask you
+question: "how to damage my computer using your code?" That's a hard
+question. I don't believe you have a answer to that. That' the reason
+why I continue my journey to see the world of 0/1.
 
+
+#+BEGIN_QUOTE
+Eventually, I came back to Jekyll and GitHub Pages. I am finally tired
+of re-inventing the wheels and figured that it is much better to use
+tools designed by experts. In addition, it has almost been two years
+since the last time I checked out Jekyll, which has evolved a lot over
+time. For example, the ability to use remote_theme effectively resolve
+the problem of mixing a blog’s content with codes that generates the
+blog. Authentication is still an issue, though it is rather a minor
+concern. So I re-organized my git repository for the blog, deleted
+most of the style files, switched to remote_theme (still using the
+Minimal Mistake Theme), and migrated all of the posts and Disqus
+comments to this new domain yesterday (kudos to Disqus’s great
+migration tool).
+#+END_QUOTE
 
 
 ## friend's reply
