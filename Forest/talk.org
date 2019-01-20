@@ -128,10 +128,36 @@ Let's look at which one is the easiest?
 - [[https://hexo.io/][Hexo uses 5 commands]]
 
 Emm, Jekyll wins! I start to love Jekyll, but what is ~Minimal Mistake
-Theme~? I could not search any result on [[https://jekyllrb.com/resources/][this page]]. I search [[https://github.com/horizon-blue/horizon-blue.github.io][your
-blog]]. I notice you mention that it is entry point. Do you know where I
-can find your remote_theme? I [[https://github.com/horizon-blue/horizon-blue.github.io/tree/master/assets][found the entry point of your blog is
-super good.]] How you did this magic?
+Theme~? I could not search any result on [[https://jekyllrb.com/resources/][this page]]. (I found[[https://mademistakes.com/work/minimal-mistakes-jekyll-theme/][ the link
+at the bottom of your web]]) I read [[https://github.com/horizon-blue/horizon-blue.github.io][your blog]]. I notice you mention that
+it is entry point. Do you know where I can find your remote_theme? I
+[[https://github.com/horizon-blue/horizon-blue.github.io/tree/master/assets][found
+the entry point of your blog is super good.]] How you did this magic?
+
+* About Coding
+#+BEGIN_QUOTE
+It has been three and a half years since I written done my first hello
+world program. A lot of things have changed during his period of time
+– I learned to code with C++ 11 back in 2015 (though C++ 14 standard
+had already been out at that time, it was relatively new and wasn’t
+covered in the textbook I used); C++ 20 is under way now. I am not
+going to talk about what has been happening in the community, as
+that’s not my area of expertise. What I do know a bit is that the
+meaning of coding to me has changed as well. My experience might not
+be applicable to everybody, though to me this is still an interesting
+story to look in retrospect.
+#+END_QUOTE
+
+What is the meaning of the coding? Speaking of c++ coding, I don't
+know how to define "learning c++". As an engineering student, we had a
+class called "c++ programming", which is a requirment for everyone in
+my department. Although, we "learned" a lot c++ coding, I guess most
+of my classmates did not code single line in that class. What the
+teacher asked us to do, is just to memorize those complicated c++
+grammer.
+
+
+
 
 ## friend's reply
 
