@@ -151,15 +151,81 @@ story to look in retrospect.
 What is the meaning of the coding? Speaking of c++ coding, I don't
 know how to define "learning c++". As an engineering student, we had a
 class called "c++ programming", which is a requirment for everyone in
-my department. Although, we "learned" a lot c++ coding, I guess most
-of my classmates did not code single line in that class. What the
-teacher asked us to do, is just to memorize those complicated c++
-grammer.
+my department. Although we "learned" a lot c++ coding, most of my
+classmates, including myself, did not code single line in that
+class. What our teacher asked us to do, was just to memorize those
+complicated c++ grammer, which is not very effective way to program,
+especially if I look back nowadays. I think the intention of my
+university was good, it just they don't know there is a more effective
+way to learn programming: by programming.
 
+What is the meaning of programming? In my opinion, programming is
+about automation. As a human, we are good at imagination, but you
+know, without really implymenation, imagination is just
+imagination. Computers are stuip yet super fast. If someone is good at
+programming, he can then focus on his imagination, which is more
+funny.
 
+Speaking of the programming experience, I had a wonderful class in my
+3rd year at my university. We had a class called FORTRAN programming,
+which is an old programming lanuage in scientific domain. Having those
+previous "programming" in my background, this class was indeed a hard
+class for me ( indeed there are only few classed during my college
+years, structure mechanics and this FROTRAN class ). They are hard, yet
+hard to a degree such that I want to play with them. I still clearly
+remember the joy when I first complile my FROTRAN code on
+computer. Indeed, the code I wrote at that time sucks. For example:
+#+BEGIN_SRC fortran
+subroutine change
+(p,q,AX,AY,BX,BY,AAX,AAY,BBX,BBY,CA,CB,DA,DB,EA,EB,FA,FB,GA,GB)
+implicit none
+real p,q,s,AX,AY,BX,BY,CX,CY,CA,CB,D,DA,DB,E,EA,EB,F,FA,FB,G,GA,GB,H
+integer AAX,AAY,BBX,BBY,DDX,DDY
+if (p>q)then
+s=q
+q=p
+p=s
+CX=BX
+CY=BY
+BX=AX
+BY=AY
+AX=CX
+AY=CY
+DDX=BBX
+DDY=BBY
+BBX=AAX
+BBY=AAY
+AAX=DDX
+AAY=DDY
+D=CB
+CB=CA
+CA=D
+E=DB
+DB=DA
+DA=E
+F=EB
+EB=EA
+EA=F
+G=FB
+FB=FA
+FA=G
+H=GB
+GB=GA
+GA=H
+end if
+END
+#+END_SRC
 
+What hack is this `change` function? But, that's not the point. The
+most important thing this class was that I start to fall in love with
+programming. I love immediate response from the computer: fail or
+pass. Do I achieve what I want? Very simple and easy. This kind of
+class is quite different from other classes that requiring extensive
+memorization. Another class during my college life was structure
+mechanics, which also highly related to computer at the very end of
+the class. At begaining, we learned very basic 
 
-## friend's reply
+* forest reply
 
 #+BEGIN_QUOTE
 WOW. I never thought anybody would bother to read my babbling
