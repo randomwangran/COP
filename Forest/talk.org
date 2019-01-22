@@ -1,3 +1,150 @@
+* yet another year
+
+I notice you use the word "prolonged procrastination". Indeed, I used
+to be that kind of person, but later on, I figure out that as long as
+you are human, it is a nature instinct that everyone shares the same
+thing. To become "a perfect/best" and shows our best to the rest of
+the world. I am not saying that the idea is bad. The thing is that, I
+later realize that no one is perfect, everything you think is perfect,
+is only because you do not know too much about them. If you spend
+considerably amount of time in study it, you will find out that there'
+something wrong with that. As long as we are talking about human's
+invention, the rule applied. For example, I once think the top journal
+in my field should be perfect and should be error free, at least,
+should be catch up by me because I am a newbie in the field. As you
+could possibly image, I found a lots errors on those topest journel my
+field. What I want to say is that, human makes mistake.
+
+I am not saying that every mistake should be forgive. As long as,
+someone is telling the truth, not intentionally make that mistake to
+gain some benefits that s/he should not obtain, it is okay to make
+mistake. The important thing, is to summarize those mistake from our
+ignorance, and try our best not to make that mistake again. That's
+it. Be honest with you, then the rest of things would be easy. Don't
+underestimate the first part, the easiest person we can foo with is:
+ourself. It takes a lot of effort be honest with myself.
+
+I might wrong, if you find spending time on checking those grammar
+kinda of stuff, just do it. My current idea is that we should not pay too
+much attention on those stuff. Communication is more important. Life
+is so short. Focus on the important thing.
+
+I am not sure why you need to migrate them? Translation? If you
+had the urge to write something stuff. Just write it down, turn
+off the spelling checker, all those sort of things, and let
+thoughts fly on the editor (in my case, my emacs, it's quit
+enjoyable compare to other activities, at least in my
+opinion). And if the grammar is critical to you, after a while,
+go back, and correct those mistake. I am not sure this is a
+efficient way to do what you want to achieve, but for me, it is
+the solution to my current me.
+
+For language issue, I used to push myself to write English, because I
+think that I need to practice English as much as possible. But, I
+change my mind when I feel that writing good English isn't the most
+important thing as long as you could express you idea that other
+people can understand.
+
+I am really appreciating you could share those changes and update
+during the lull? Wait, what is lull?
+
+Ps. I check the dictionary:
+
+"- A relaticely calm interval
+- An interval of lessened activity"
+
+* About This Blog
+
+Speaking of blogging stuff. My journey started at around 2014 using
+HEXO. At that time, I was very proud of making that website Indeed, my
+major is civil engineering, making a website, using lots of git
+commands, and being able to view my story on the Internet. This
+process, it self, already made me cry. At that time, my little
+achievement was huge motivation for me. And, more importantly, I
+change my view on lots stuff. I begin think that I could do anything
+if considerable amount of time being spending on whatever subject, as
+long as it is not aging dependent stuff, like short spring running,
+swimming ... (I later figure out that everybody has the same of this
+kinda of potential.) People who do not achieve what they want, most
+because of the not sufficient amount of energy focusing on the topic
+he wants to master. My point is, I myself, is so lucky, I have a
+family that support me. So, I could do whatever I want in my college
+years and I was able to do this kind beyond a typical engineering
+student supposed to do.
+
+I do not know why you was unhappy with the satic nature of
+Jekyll? Although, I am not a user of Jekyll, I use third part
+service to help me to generate my current static blog, which is
+okay for me. I also find a Jekyll user complains
+about Jekyll not s/he's choice: and ask a try to Bitcron,
+which is my current choice. I sent s/he an invitation link. Will
+see her/is comments. S/he was invited by someelse. I guess its
+the creator of Bitcron. But that's not important. I like this
+blog and I already become a fan of her/im.
+
+#+BEGIN_QUOTE
+Unless I’ve missed something important, it is
+impossible to “lock” any page or to render pages based on
+authentication status on static GitHub Pages.
+#+END_QUOTE
+
+Not sure what you mean. Just curious about why you want to "lock" any
+page? For manage code and content of the blog, I think it is totally
+okay mixing them together. If what you concern with is that it can not
+tell which commit is which, write a template or just make a rule to
+mark them. Or, maybe, you want to "KISS"? Or, just had some headache
+with those techniques stuff?
+
+Talking about your experience with BAIDU! I share the same! I used to
+be a user (more than 10 years) of it. But, when I was in college, I
+did some arguments with a user in my collage pages. I didn't have any
+bad intention to offense people, but at the end of the day, the
+account was forbidden. I no longer can make any noise on that
+platform. Similar things applied to some third parties: I even wrote a
+blog to express my thoughts. I was really appreciated for GitHub
+Pages. It not only gave me a tiny space on the Internet, but also open
+my eyes towards a much bigger world. So many good people, so many
+wonderful thoughts, so many amazing tools.
+
+I never try WordPress, although I found a lots of blogs and websites
+offering great contents (for example, the learning material of c++ for
+me is this website ). But for me, I am very satisfied with the static
+pages kinda blog. It's easy for me and provide enough control to me. I
+learn from your blog that to "freely" use WordPress, user has to pay
+fee to just get rid of the ads? Sounds like crazy to me. I use Adblock
+on my Chrome. Even someone put ad their website, I cannot set it.
+
+I nerver heard about React before. I checked their website. But I
+don't know what is reactive system? Something opposite to the statics
+one? The document of that website is really hard to understand for me.
+
+I also search the wiki for Flask and I found this:
+#+BEGIN_QUOTE
+It came out of an April Fool's joke but proved popular enough to make into a serious application in its own right.
+#+END_QUOTE
+Haha, really cool. And I further go to this website. I tried to to
+build "the denied", but I got the following message.
+
+#+BEGIN_SRC python
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============ RESTART: C:\Users\user\Desktop\New folder\deny.py ============
+Traceback (most recent call last):
+File "C:\Users\user\Desktop\New folder\deny.py", line 1, in <module>
+from deny import *
+File "C:\Users\user\Desktop\New folder\deny.py", line 3, in <module>
+@route('/')
+NameError: name 'route' is not defined
+>>>
+#+END_SRC
+
+Not sure what does this means:
+
+#+BEGIN_QUOTE
+No installation or configuration required. No dependencies other than the Python standard library
+#+END_QUOTE
+
 GraphQL: a open-source data query and manipulation language for API...
 Sounds cool. But, why you website need such query system?
 
