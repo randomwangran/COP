@@ -370,7 +370,29 @@ pass. Do I achieve what I want? Very simple and easy. This kind of
 class is quite different from other classes that requiring extensive
 memorization. Another class during my college life was structure
 mechanics, which also highly related to computer at the very end of
-the class. At begaining, we learned very basic 
+the class. At begaining, we learned very basic things in engineering
+mechanics, such as to calculate the deformation of a beam. It is an
+essential courses for civil student, so everybody take it
+seriously. But the most interesting part of this course, is actully at
+very end of it: we use computers to calcute a very complex structure,
+which is almost impossible for hand calculation. Actually, the method
+we used is a very simplified numerical method called finite element
+method. We build a matrix to representing a complicated structure and
+let the computer to do the most tedious work. Indeed, the source code
+was written in C programming language. Although we don't need to code
+that software, I was indeeded shocked by the ability of
+computer. I guess that it was from that time I start to want to learn
+more about computer. The final thesis for my undergraduate was related
+computational electromagnetism, which again nobody in my department
+really interested in. Most of my student choosed geotechnical
+engineering related projects, e.g., soil mechanics and rock
+mechanics, but I just feel it was so cool to study the Maxwell's
+equations. Later, when I could determine my career path during my
+master program, I again choose computer related project, i.e., the
+computational fluid mechanics. The time is really short for my
+undergraduate thesis. To be honset with you, I did't really understand
+what I was doing. But for the time during my master, I had a lot of
+time study Navior-Stokes equaiton using computer to solve them.
 
 * forest reply
 
@@ -378,7 +400,8 @@ the class. At begaining, we learned very basic
 WOW. I never thought anybody would bother to read my babbling
 carefully and write a comment in such detail... thanks!
 #+END_QUOTE
-I just interested in the stuff you presented to me.
+I just interested in the stuff you presented to the Internet and I
+happened to read it.
 
 #+BEGIN_QUOTE
 Not sure whether I should post my reponses right now or wait till you
