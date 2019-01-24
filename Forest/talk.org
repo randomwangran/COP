@@ -403,14 +403,90 @@ can do the hello world using c++ without any issue. But, at the same
 time, c++ is so hard. What I know is that there are some people in
 this world use c++ solving N.S. equation. I use the software written
 by those genius c++ coder, and I found the result was not too bad
-comparing to many experimental data. That's deepen my love to
+comparing to many experimental data. That deepen my love to
 c++. It's hard, easy, and magic to me. That's the reason why I love to
 learn c++. I don't have a very good plan to learn c++ at
 begining. Indeed, I used [[https://www.learncpp.com/cpp-tutorial/126-pure-virtual-functions-abstract-base-classes-and-interface-classes/][learning c++]] to learn it, but not very
 consistent. Until I saw your [[https://github.com/horizon-blue/playground][c++ rep]]. Actually, the first time I came
 to your blog is not because of c++. I was thinking about converted my
 hhkb into a bluetooth version, and I google some keywords. I got to
-your website, and story begain...
+your website, and story began...
+
+#+BEGIN_QUOTE
+It has been three and a half years since I written done my first hello
+world program. A lot of things have changed during his period of time
+– I learned to code with C++ 11 back in 2015 (though C++ 14 standard
+had already been out at that time, it was relatively new and wasn’t
+covered in the textbook I used); C++ 20 is under way now. I am not
+going to talk about what has been happening in the community, as
+that’s not my area of expertise. What I do know a bit is that the
+meaning of coding to me has changed as well. My experience might not
+be applicable to everybody, though to me this is still an interesting
+story to look in retrospect.
+#+END_QUOTE
+
+That't the expert different from a newbiew like me. Although I've
+learnt a lot of c++, I do not have a clear picture of the difference
+between c++11,14, and 20. There's still a lot of work ahead of me. You
+don't want to talk what's happening in the community. Just curious
+about why. It's okay, if you don't, ignore this paragraph.
+
+Different from you, I not a professional coder, so I don't have any
+burden to learn the cutting edge technolgy. I still learning c++ every
+single days. I used and enjoyed the c++ code, at the mean time, I
+hoping one day I could understand what's going on in that black box.
+
+#+BEGIN_QUOTE
+When I first started coding (around Aug 2015, right before I entered
+college), I put a heavy attention on the selection of programming
+languages, tools, and the platforms. I literally Googled “what is the
+best programming language” and read the comparisons post to
+post. After selecting C++, I went on Googling “what is the best
+software to write C++” (of course I had no idea what compilers or text
+editors are), at which point some genius mentioned that it is best to
+learn C++ on Linux, so I began another “what is the best Linux
+distribution” search, installed CentOS, and found that my Wi-Fi was
+dead because there was no pre-installed wireless driver (I talked a
+bit about this in my previous post). After looping over the procedures
+above for several days, I gave up Linux and finally settled on Emacs
+with the compiler come with Visual Studio IDE (on Windows, don’t ask
+me why). This had been my default set up for a while, until I
+installed a Ubuntu virtual machine four months later (and switched to
+Sublime Text after another year).
+#+END_QUOTE
+
+Do you still remember which posts mentioned "c++ is the best
+programming language". Although, I don't think there is the best
+language exists in this world. I would like to say their
+arguments. Emm, I want to argue with the "genius" guys that it's not
+too bad learning c++ on windows. M$'s VS is awsome! I love to write
+c++ code on Windows machines. Indeed, nowadays, I still use VS to
+write c++, although from a point of view of an emacs users, it's
+suck. Emacers should use emacs to write c++, but I am not that good
+right now. It's not saying that I would write c++ using VS forever, I
+am learning emacs every single day hoping one day I could write big
+c++ projects within emacs!
+
+Things gettting interesting! Seems that you are an emacers!!!!!
+#+BEGIN_QUOTE
+This had been my default set up for a while, until I installed a
+Ubuntu virtual machine four months later (and switched to Sublime Text
+after another year).
+#+END_QUOTE
+
+But, wait, why you switched back to Sublime? I also use Sublime, it's
+quite good. I sometimes use it to edit some Chinese blogs when my
+default Chinese Editor not working good. Why you switch back to
+Sublime? This is very interesting!
+
+#+BEGIN_QUOTE
+on windows, don't ask me why
+#+END_QUOTE
+
+Why? I use VS IDE with emacs kbd. Although it sucks, it works. When I
+started the journey to code all the assignment on learning c++ code, I
+mainly use IDE to write stuff, sometime I use VS code on my
+Surface-pro (because I don't have courage to install it on SP).
 * forest reply
 
 #+BEGIN_QUOTE
