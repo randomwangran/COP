@@ -368,7 +368,9 @@ most important thing this class was that I start to fall in love with
 programming. I love immediate response from the computer: fail or
 pass. Do I achieve what I want? Very simple and easy. This kind of
 class is quite different from other classes that requiring extensive
-memorization. Another class during my college life was structure
+memorization. 
+
+Another class during my college life was structure
 mechanics, which also highly related to computer at the very end of
 the class. At begaining, we learned very basic things in engineering
 mechanics, such as to calculate the deformation of a beam. It is an
@@ -382,7 +384,9 @@ let the computer to do the most tedious work. Indeed, the source code
 was written in C programming language. Although we don't need to code
 that software, I was indeeded shocked by the ability of
 computer. I guess that it was from that time I start to want to learn
-more about computer. The final thesis for my undergraduate was related
+more about computer. 
+
+The final thesis for my undergraduate was related
 computational electromagnetism, which again nobody in my department
 really interested in. Most of my student choosed geotechnical
 engineering related projects, e.g., soil mechanics and rock
@@ -392,8 +396,21 @@ master program, I again choose computer related project, i.e., the
 computational fluid mechanics. The time is really short for my
 undergraduate thesis. To be honset with you, I did't really understand
 what I was doing. But for the time during my master, I had a lot of
-time study Navior-Stokes equaiton using computer to solve them.
+time study Navier-Stokes equaitons [[https://openfoam.org/][using computer]] to solve them.
 
+During my master study, c++ is a black box to me. It's so simple. I
+can do the hello world using c++ without any issue. But, at the same
+time, c++ is so hard. What I know is that there are some people in
+this world use c++ solving N.S. equation. I use the software written
+by those genius c++ coder, and I found the result was not too bad
+comparing to many experimental data. That's deepen my love to
+c++. It's hard, easy, and magic to me. That's the reason why I love to
+learn c++. I don't have a very good plan to learn c++ at
+begining. Indeed, I used [[https://www.learncpp.com/cpp-tutorial/126-pure-virtual-functions-abstract-base-classes-and-interface-classes/][learning c++]] to learn it, but not very
+consistent. Until I saw your [[https://github.com/horizon-blue/playground][c++ rep]]. Actually, the first time I came
+to your blog is not because of c++. I was thinking about converted my
+hhkb into a bluetooth version, and I google some keywords. I got to
+your website, and story begain...
 * forest reply
 
 #+BEGIN_QUOTE
