@@ -362,7 +362,6 @@ GA=H
 end if
 END
 #+END_SRC
-
 What hack is this `change` function? But, that's not the point. The
 most important thing this class was that I start to fall in love with
 programming. I love immediate response from the computer: fail or
@@ -502,16 +501,43 @@ to coding problem can be found in horizon-blue/playground).
 
 Hey, forest, if you really enjoy coding c++ and finding something
 interesting related to c++, just keep going like what you did. You
-read it slow, but indeed it is fast. [[https://www.youtube.com/watch?v=M93qXQWaBdE][Flight of the Bumblebee -
-Rimsky-Korsakov (arr. Rachmaninoff)]] One of the comments really
-interesting to me:
+read it slow, but indeed it is fast. Someting that I kept thinking
+when I watch this piece: [[https://www.youtube.com/watch?v=M93qXQWaBdE][Flight of the Bumblebee - Rimsky-Korsakov
+(arr. Rachmaninoff)]] and one of the comments is really interesting to
+me:
 
 #+BEGIN_QUOTE
 iF yOu CaN pLaY sLoW yOu CaN pLaY fAsT
 #+END_QUOTE
 
-When I am writing this paragraphy, I listen to the same
-[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]
+(When I am writing this paragraphy, I listen to the same
+[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]. Such a great piece.)
+
+When I started to learn c++, I also found a lot of people recommand
+this book. It should be a great book for most of people, but I just cannot
+stick to it, until one day I found [[https://www.learncpp.com/][learning c++]]. That's not the best
+if someone compares it to the C++ Primer. What makes different to me
+is that I can acutually code with the instructions of the
+blogger. It's not the best but it keeps my motivation to learn c++
+every single day, which I think is more important than finding the
+best.
+
+#+BEGIN_QUOTE
+C++ is pretty much the only language I used on my freshman year, after
+which things began to change. The system programming course I was
+taking was taught in C, yet only the first week of class was used to
+cover some basic syntax of C. I finally began to realize that… perhaps
+the language itself isn’t that important? I had taken the data
+structure course before that (which was taught in C++), yet I failed
+to realize that the focus is not just about how to use data structure
+in C++. My theory was further confirmed by the algorithm course I was
+taking at the same time, which didn’t even require a single line of
+code throughout the semester (unless you count as a programming
+language.)
+#+END_QUOTE
+
+I agree with you on "the language itself isn’t that
+important". Insteady of learning every detail of the lanuage.
 
 * forest reply
 
