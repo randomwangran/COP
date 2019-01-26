@@ -485,8 +485,34 @@ on windows, don't ask me why
 
 Why? I use VS IDE with emacs kbd. Although it sucks, it works. When I
 started the journey to code all the assignment on learning c++ code, I
-mainly use IDE to write stuff, sometime I use VS code on my
+mainly use IDE to write code, sometime I use VS code on my
 Surface-pro (because I don't have courage to install it on SP).
+
+#+BEGIN_QUOTE
+In addition to the regular computer science curriculum, I had also
+been reading C++ Primer, 5th edition. Overall I really like this book
+as it covers everything in every detail – it not only teaches me how,
+but also tells me why. Even though C++ 14 and C++ 17 are out, it is
+probably still one of the best introductory C++ books. However, I am a
+slow reader (especially in English), yet C++ Primer has more than 1k
+pages. So I never really got a chance to finish the entire book
+(though I did finish every exercise up to Chapter 14, and my solutions
+to coding problem can be found in horizon-blue/playground).
+#+END_QUOTE
+
+Hey, forest, if you really enjoy coding c++ and finding something
+interesting related to c++, just keep going like what you did. You
+read it slow, but indeed it is fast. [[https://www.youtube.com/watch?v=M93qXQWaBdE][Flight of the Bumblebee -
+Rimsky-Korsakov (arr. Rachmaninoff)]] One of the comments really
+interesting to me:
+
+#+BEGIN_QUOTE
+iF yOu CaN pLaY sLoW yOu CaN pLaY fAsT
+#+END_QUOTE
+
+When I am writing this paragraphy, I listen to the same
+[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]
+
 * forest reply
 
 #+BEGIN_QUOTE
@@ -639,4 +665,4 @@ send_file, redirect, abort.
 from Flask's wiki page: "It is classified as a microframework because
 it does not require particular tools or libraries" I revise the
 [[https://en.wikipedia.org/w/index.php?title=Flask_(web_framework)&oldid=878646094][Flask's wiki page]]. Not 100% sure it is correct. Please correct or
-improve the wiki page if you have better idea.
+improve the wiki page if you have better idea.[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]
