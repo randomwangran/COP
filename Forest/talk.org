@@ -532,12 +532,19 @@ structure course before that (which was taught in C++), yet I failed
 to realize that the focus is not just about how to use data structure
 in C++. My theory was further confirmed by the algorithm course I was
 taking at the same time, which didn’t even require a single line of
-code throughout the semester (unless you count as a programming
+code throughout the semester (unless you count latex as a programming
 language.)
 #+END_QUOTE
 
 I agree with you on "the language itself isn’t that
-important". Insteady of learning every detail of the lanuage.
+important". The reason why I still stick to c++ because I still use
+the open-source code to numerically calculate solutions to
+Navier-Stokes equation. The creator of [[https://openfoam.org/][that open-source project]] is still
+actively developing it. To me, he is a hero. Nowadays, not many people
+believe the power of open-source. The creator of OpenFOAM did this,
+not only live upon what he created and enjoyed, but also offer many
+master/phds/reserchers around the world a tool to analyse fluid
+related issue.
 
 * forest reply
 
