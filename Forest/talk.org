@@ -536,15 +536,27 @@ code throughout the semester (unless you count latex as a programming
 language.)
 #+END_QUOTE
 
-I agree with you on "the language itself isn’t that
-important". The reason why I still stick to c++ because I still use
-the open-source code to numerically calculate solutions to
-Navier-Stokes equation. The creator of [[https://openfoam.org/][that open-source project]] is still
-actively developing it. To me, he is a hero. Nowadays, not many people
-believe the power of open-source. The creator of OpenFOAM did this,
-not only live upon what he created and enjoyed, but also offer many
+I agree with you on "the language itself isn’t that important". The
+reason why I still stick to c++ because I still use the open-source
+code to numerically calculate solutions to Navier-Stokes equation. The
+creator of [[https://openfoam.org/][that open-source project]] is still actively developing
+it. To me, he is a hero. Nowadays, not many people believe in the
+power of open-source. The creator of OpenFOAM did this, not only live
+upon what he created and enjoyed, but also offer many
 master/phds/reserchers around the world a tool to analyse fluid
-related issue.
+related challenges.
+
+#+BEGIN_QUOTE
+I gradually put down my thoughts of finding and sticking with the
+“best language” or the “best framework,” and began to explore
+around. horizon-blue/Hermes, written in late 2016, was my first
+attempt to try something beyond the standard library (it was also my
+first "project," or first program that contain more than 1k lines of
+code).
+#+END_QUOTE
+
+Besides your awsome blog. I also found the editor you created, Hermes,
+interesting. So I start to play with it.
 
 * forest reply
 
