@@ -1,0 +1,2 @@
+* [[http://www.linfo.org/additions.html][great articles]]
+* [[http://www.linfo.org/onlinebooks.html][online books]]
