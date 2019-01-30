@@ -548,7 +548,7 @@ related challenges.
 
 #+BEGIN_QUOTE
 I gradually put down my thoughts of finding and sticking with the
-“best language” or the “best framework,” and began to explore
+"best language" or the "best framework," and began to explore
 around. horizon-blue/Hermes, written in late 2016, was my first
 attempt to try something beyond the standard library (it was also my
 first "project," or first program that contain more than 1k lines of
@@ -558,6 +558,7 @@ code).
 Besides your awsome blog. I also found the editor you created, Hermes,
 interesting. So I start to play with it.
 
+What is client server? I've seen this in Emacs world.
 * forest reply
 
 #+BEGIN_QUOTE
