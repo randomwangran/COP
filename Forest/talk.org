@@ -735,3 +735,7 @@ from Flask's wiki page: "It is classified as a microframework because
 it does not require particular tools or libraries" I revise the
 [[https://en.wikipedia.org/w/index.php?title=Flask_(web_framework)&oldid=878646094][Flask's wiki page]]. Not 100% sure it is correct. Please correct or
 improve the wiki page if you have better idea.[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]
+
+
+** AAAI
+so cool, it seems that you will present a slide show this afternoon at Tech Session 4: 2498. Good luck
