@@ -554,11 +554,34 @@ attempt to try something beyond the standard library (it was also my
 first "project," or first program that contain more than 1k lines of
 code).
 #+END_QUOTE
-
 Besides your awsome blog. I also found the editor you created, Hermes,
 interesting. So I start to play with it.
 
 What is client server? I've seen this in Emacs world.
+
+** try Hermes
+   Running server with extremely high CPU usage.
+   I compile your code on a machine:
+   #+BEGIN_SRC sh
+[me@remote Hermes]$  lsb_release -a
+LSB Version:	n/a
+Distributor ID:	CentOS
+Description:	CentOS Linux release 7.5.1804 (Core) 
+Release:	7.5.1804
+Codename:	Core
+   #+END_SRC
+
+   This is what I've done:
+   #+BEGIN_SRC 
+[me@remote Hermes]$ ./server 1.1.1.1 &
+[me@remote Hermes]$ top
+#+BEGIN_SRC sh
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                         
+17885 me  20   0   25996    856    600 R  95.0  0.0   1:27.92 server 
+#+END_SRC
+  I not sure what's going on with my machine. Although my machine has
+  other cores, but I guess if I write my code using Hermes, the
+  machine could be also use to cook eggs :). How to fix this issue?
 * forest reply
 
 #+BEGIN_QUOTE
@@ -712,4 +735,7 @@ from Flask's wiki page: "It is classified as a microframework because
 it does not require particular tools or libraries" I revise the
 [[https://en.wikipedia.org/w/index.php?title=Flask_(web_framework)&oldid=878646094][Flask's wiki page]]. Not 100% sure it is correct. Please correct or
 improve the wiki page if you have better idea.[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]
+
+** AAAI
+so cool, it seems that you will present a slide show this afternoon at Tech Session 4: 2498. Good luck
 
