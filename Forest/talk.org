@@ -739,3 +739,5 @@ improve the wiki page if you have better idea.[[https://www.youtube.com/watch?v=
 ** AAAI
 so cool, it seems that you will present a slide show this afternoon at Tech Session 4: 2498. Good luck
 
+[[http://www.yinwang.org/blog-cn/2019/01/30/machine-learning][** yin's blog]]
+   xiang ji qi xue xi, xiang ren lei zhi neng ju gong.
