@@ -271,7 +271,7 @@ Emm, everybody seems focus on the simplicity of building the blog.
 Let's look at which one is the easiest?
 
 - [[https://gohugo.io/getting-started/quick-start/][Huge use 6 steps]]
-- [[https://gohugo.io/getting-started/quick-start/][Jekyll uses 4 commands]]
+- [[https://jekyllrb.com/][Jekyll uses 4 commands]]
 - [[https://hexo.io/][Hexo uses 5 commands]]
 
 Emm, Jekyll wins! I start to love Jekyll, but what is ~Minimal Mistake
@@ -712,3 +712,4 @@ from Flask's wiki page: "It is classified as a microframework because
 it does not require particular tools or libraries" I revise the
 [[https://en.wikipedia.org/w/index.php?title=Flask_(web_framework)&oldid=878646094][Flask's wiki page]]. Not 100% sure it is correct. Please correct or
 improve the wiki page if you have better idea.[[https://www.youtube.com/watch?v=4VR-6AS0-l4][Ludovico Einaudi - Nuvole Bianche]]
+
