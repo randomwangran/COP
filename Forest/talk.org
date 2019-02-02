@@ -582,6 +582,13 @@ Codename:	Core
   I not sure what's going on with my machine. Although my machine has
   other cores, but I guess if I write my code using Hermes, the
   machine could be also use to cook eggs :). How to fix this issue?
+
+  what is Server ip? what is port number? If I just want to run it in
+  my local machine what should I do?
+
+  For example: I've try 255.255.0.0 with a port number 12345. I've
+  run a server with ./server 255.255.0.0 &, but after I enter those
+  number into Hermes, nothing happen.
 * forest reply
 
 #+BEGIN_QUOTE
