@@ -583,12 +583,45 @@ Codename:	Core
   other cores, but I guess if I write my code using Hermes, the
   machine could be also use to cook eggs :). How to fix this issue?
 
-  what is Server ip? what is port number? If I just want to run it in
-  my local machine what should I do?
+*** try to log in
+   what is Server ip? what is port number? If I just want to run it in
+   my local machine what should I do?
 
-  For example: I've try 255.255.0.0 with a port number 12345. I've
-  run a server with ./server 255.255.0.0 &, but after I enter those
-  number into Hermes, nothing happen.
+   For example: I've try 255.255.0.0 with a port number 12345. I've
+   run a server with ./server 255.255.0.0 &, but after I enter those
+   number into Hermes, nothing happen.
+
+   I study your google slide and I saw you using ip address
+   10.0.0.140? Why it is not okay for me. I try this command:
+   #+BEGIN_SRC 
+   ping 10.0.0.140
+   #+END_SRC
+   Destination Host Unreachable.
+
+   I then do this:
+   #+BEGIN_SRC 
+   ping 0.0.0.0
+   #+END_SRC
+  
+   I could reeived packets without any issue. So I think this ip
+   address could be used for server.
+
+   Then I tried this:
+   #+BEGIN_SRC 
+   ./server 0.0.0.0:12345 &
+   ./client
+   #+END_SRC
+  
+   Then I input the information:
+   #+BEGIN_SRC 
+   Server ip: 0.0.0.0
+   Port number: 12345
+   #+END_SRC
+  
+   Then I got:
+   #+BEGIN_SRC 
+   Connection to 0.0.0.0 fails, please try again.
+   #+END_SRC
 * forest reply
 
 #+BEGIN_QUOTE
@@ -748,3 +781,4 @@ so cool, it seems that you will present a slide show this afternoon at Tech Sess
 
 [[http://www.yinwang.org/blog-cn/2019/01/30/machine-learning][** yin's blog]]
    xiang ji qi xue xi, xiang ren lei zhi neng ju gong.
+   
