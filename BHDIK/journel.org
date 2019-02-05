@@ -1,0 +1,13 @@
+* what is the name?
+  - Yes, it is called a bit.
+  
+  - Gate: name of the lights device.
+
+  - And gate: I love computer people.
+    
+  - NANA gate: easy to understand.
+
+  - NOT gate: result is not input.
+
+  Yes, I can understand NAND gate!
+* Diagrams
