@@ -91,3 +91,5 @@ configure: error: cannot guess build type; you must specify one
 I later follow the instruction of this book on a linux machine without
 any issue. But, this book did not explain too much info on how
 makefile works. So, I need do some further study.
+** add-on reading
+   [[http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/][this is good starting point]]
