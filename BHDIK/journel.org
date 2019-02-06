@@ -11,3 +11,5 @@
 
   Yes, I can understand NAND gate!
 * Diagrams
+
+  when s is off, what will happen??
