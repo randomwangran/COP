@@ -12,4 +12,13 @@
   Yes, I can understand NAND gate!
 * Diagrams
 
-  when s is off, what will happen??
+  when s is off, what will happen?
+
+  I see the gates openning and closing but I cannot understand why the
+  author say it is "memory"? When 's' is off, 'o' stays the way it
+  was. How can this called memory? From my understanding, if there is
+  nothing there, ( no wires or gates ), everytime a person observing
+  the state of 'o', 'o' is still 'o'. Is this called memory? In my
+  navive eye, memory is something one can pick...
+
+  Wait, what is memory?
