@@ -22,3 +22,5 @@
   navive eye, memory is something one can pick...
 
   Wait, what is memory?
+
+  I still don't understand hwo 4 ngates create a one bit memory.
