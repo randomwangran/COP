@@ -92,4 +92,11 @@ I later follow the instruction of this book on a linux machine without
 any issue. But, this book did not explain too much info on how
 makefile works. So, I need do some further study.
 ** add-on reading
-   [[http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/][this is good starting point]]
+   [[http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/][this is good starting point]].
+*** GNU Manual: An Introduction to Makefiles
+    The goal of reading the manual to answer a question by [[https://www.cfd-online.com/Forums/openfoam-programming-development/196114-why-wmake-not-listen-me.html][myself]].
+**** 2.1 What a Rule Looks Like
+     Some people like space, but why the creator of make prefre tab?
+**** 2.2 A Simple Makefile
+     - what is cc?
+     - what is object file?
