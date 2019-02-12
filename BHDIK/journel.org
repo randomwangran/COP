@@ -25,3 +25,11 @@
 
   I still don't understand hwo 4 ngates create a one bit memory.
 
+  Let me summary what I've learn:
+
+  When 's' is on, input determine output;
+  When 's' is off, input cannot affect output;
+
+  So, if you want to change the information in that bit, turn 's' on,
+  do something that you know. Then turn 's' off, whatever the next
+  input is, the output always stays what it was.
