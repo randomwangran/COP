@@ -99,4 +99,37 @@ makefile works. So, I need do some further study.
      Some people like space, but why the creator of make prefre tab?
 **** 2.2 A Simple Makefile
      - what is cc?
+
+       Just a complier. I saw people using this:
+       
+       CC = g++
+       
      - what is object file?
+       
+       I think object files are like components of a bike. In order to
+       build a bike, you need to have wheels, frame, cranksets,
+       .... If you want to buld a bike without object file, it's like
+       you hide all the intermidiate processed of building that
+       bike. If you have some luck, for example all the component and
+       you have an experienced MECHANICS (e.g. Gary Blem), you would
+       have a nice bike once you 'make' the bike.
+
+       In reality, this is not the case. When you build a bike, you
+       find the component on-line one by one. Sometimes, those
+       components are not suit for each other. Even if have all the
+       components, you need to build the bike from those components
+       one by one. Often, you will make mistake. But, it doesn't
+       matter too much if you build you bike in a modulize fasion.
+
+       I think this is exactly why we need object file in building a
+       bin program.
+
+#+BEGIN_SRC make
+     groupset.o : gear_levers.c brake_levers.c \
+                  brakes.c derailleurs.c bottom_bracket.c \
+                  crankset.c chain.c cogset.c tool_sets.h
+                  cc -c groupset.c
+#+END_SRC
+
+       
+     
