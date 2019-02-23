@@ -11,25 +11,26 @@ I've done during these years playing with installation.
     I need git > 2.2 to make magit running, but the machine only have
     1.8.
 
-*** journey
+**** journey
 
-    We don't have openssl.
+     We don't have openssl.
 
 
-    $ ./configure prefix=~/opt NO_OPENSSL
-    $ make all
-    $ make install
+     $ ./configure prefix=~/opt NO_OPENSSL
+     $ make all
+     $ make install
     
-    So easy. It is installed in:
+     So easy. It is installed in:
 
-    /home/superran/opt/bin
+     /home/superran/opt/bin
     
-    git version 2.21.0.rc2.5.gc65a288
+     git version 2.21.0.rc2.5.gc65a288
 
-    And I change .bashrc:
+     And I change .bashrc:
 
-    export PATH=/home/superran/opt/bin:$PATH
+     export PATH=/home/superran/opt/bin:$PATH
 
+     And my magit work™.
 *** install paraview
 ** add-ons
 
