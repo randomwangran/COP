@@ -10,6 +10,12 @@ I've done during these years playing with installation.
 
     I need git > 2.2 to make magit running, but the machine only have
     1.8.
+    
+    LSB Version:	:core-4.1-amd64:core-4.1-noarch
+    Distributor ID:	CentOS
+    Description:	CentOS Linux release 7.3.1611 (Core) 
+    Release:	7.3.1611
+    Codename:	Core
 
 **** journey
 
@@ -31,6 +37,8 @@ I've done during these years playing with installation.
      export PATH=/home/superran/opt/bin:$PATH
 
      And my magit work™.
+
+     
 *** install paraview
 ** add-ons
 
