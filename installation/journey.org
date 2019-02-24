@@ -6,7 +6,7 @@ I've done during these years playing with installation.
 
 ** essential software
 
-*** install git on Centos 7
+*** DONE install git on Centos 7
 
     I need git > 2.2 to make magit running, but the machine only have
     1.8.
@@ -40,8 +40,132 @@ I've done during these years playing with installation.
 
      And my magit work™.
 
-     
-*** install paraview
+*** TODO qt
+
+    Just to build paraview.
+
+    #+BEGIN_SRC sh
+    $ ./configure --prefix=/home/superran/bin
+    $ gmake
+    $ gmake install
+    #+END_SRC
+    
+    Error:
+    #+BEGIN_SRC 
+    mkdir: cannot create directory ‘/usr/local/Trolltech’: Read-only file system
+    #+END_SRC
+
+    Seems I forget to configure something within my folder.
+
+    So, I do this:
+    
+    #+BEGIN_SRC sh
+    $ cd ~/opt/qt-everywhere-opensource-src-4.8.6
+    $ make clean
+    $ mkdir ~/opt/qt
+    $ mkdir ~/opt/qt-build
+    $ cd ~/opt/qt-build
+    $ ../qt-everywhere-opensource-src-4.8.6/configure -prefix /home/superran/opt/qt
+    $ gmake
+    $ gmake install
+    #+END_SRC
+
+    But I got:
+    #+BEGIN_SRC 
+    You cannot make a shadow build from a source tree containing a previous build.
+    Cannot proceed.
+    #+END_SRC
+
+    Then I enter 
+
+    #+BEGIN_SRC 
+    /home/superran/opt/qt-everywhere-opensource-src-4.8.6:
+    #+END_SRC
+
+    To do:
+    #+BEGIN_SRC 
+    ./configure -prefix /home/superran/opt/qt
+    #+END_SRC
+
+*** TODO install paraview
+
+    I need qt.
+
+*** cmake
+    
+*** openfoam-dev
+
+**** Scotch and PT-Scotch
+
+**** TODO ParaView
+
+***** environment for OpenFOAM
+
+      #+BEGIN_SRC 
+      source $HOME/opt/OpenFOAM-dev/etc/bashrc      
+      #+END_SRC
+
+      But I got 
+
+      bash: mpicc: command not found
+      
+      Not sure what will happen.
+
+      Then:
+
+      #+BEGIN_SRC 
+      superran@remote ThirdParty-dev]$ ./makeParaView      
+      #+END_SRC
+
+      But, I qmake is not there!
+
+      #+BEGIN_SRC 
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+      Dload  Upload   Total   Spent    Left  Speed
+      100 41.7M  100 41.7M    0     0   477k      0  0:01:29  0:01:29 --:--:-- 1265k
+      Error: cannot find qmake either at $QMAKE_PATH or in current $PATH
+      #+END_SRC
+
+      Source bashrc to .bashrc and 
+
+      #+BEGIN_SRC 
+      export PATH=/home/superran/opt/qt-everywhere-opensource-src-4.8.6/bin:$PATH
+      #+END_SRC
+      
+      Then I do this:
+      
+      #+BEGIN_SRC 
+      ./makeParaView
+      #+END_SRC
+
+      I got this:
+      #+BEGIN_SRC 
+      CMake Error at CMakeLists.txt:31 (cmake_minimum_required):
+      CMake 3.3 or higher is required.  You are running version 2.8.8
+
+       -- Configuring incomplete, errors occurred!
+
+      #+END_SRC
+
+      Strong error: disuage overuse.
+
+      So I come an idea using graham tty to build ParaView.
+
+      It turn out that the bashrc file is 4.1 version when I build dev
+      version of OF. A good suggestion is to check ~foamVersion~ to
+      see which OF OS is using.
+
+      Now Graham is busy building my ParaView.
+****** Why OF not using export?
+       #+BEGIN_SRC 
+       source $HOME/OpenFOAM/OpenFOAM-dev/etc/bashrc
+       source $HOME/.bashrc       
+       #+END_SRC
+
+       ~bashrc~ in OpenFOAM did those things, it's a good idea to
+       separate those configure into different files.
+***** comp
+**** CGAL
 ** add-ons
 
 
