@@ -156,6 +156,49 @@ I've done during these years playing with installation.
       see which OF OS is using.
 
       Now Graham is busy building my ParaView.
+
+      But, it turns out:
+
+      #+BEGIN_SRC 
+      Could NOT find Qt4 (missing: QT_MOC_EXECUTABLE QT_RCC_EXECUTABLE
+      QT_UIC_EXECUTABLE) (found version "4.8.6")
+      Call Stack (most recent call first):
+      #+END_SRC
+
+      It seems building ParaView as the first step is a bad choice, so
+      I follow the ~  OpenFOAM-dev Third-Party packages ~:
+
+******* DONE makeGcc
+      #+BEGIN_SRC 
+      [superran@gra-login1 ThirdParty-dev]$ gcc --version
+      gcc (GCC) 5.4.0
+      #+END_SRC
+
+      I have 5.4.0, so I ignore this step.
+
+
+******* DONE Allwmake  (Builds OpenMPI, Scotch etc.)
+******* DONE makeCmake (if the system cmake version is < 3.3.0) 
+
+	I check the cmake version:
+
+	#+BEGIN_SRC 
+	[superran@gra-login1 ThirdParty-dev]$ cmake --version
+	cmake version 3.8.2
+	#+END_SRC
+
+******* DONE makeParaView
+	Same issue:
+
+	#+BEGIN_SRC 
+	CMake Error at /cvmfs/soft.computecanada.ca/nix/store/678hyhmplmrgwg96yyyxdvbpchb8maya-cmake-cursesUI-qt4UI-3.8.2/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+	Could NOT find Qt4 (missing: QT_MOC_EXECUTABLE QT_RCC_EXECUTABLE
+	QT_UIC_EXECUTABLE) (found version "4.8.6")
+	#+END_SRC
+	
+
+******* what is Qt4?
+	
 ****** Why OF not using export?
        #+BEGIN_SRC 
        source $HOME/OpenFOAM/OpenFOAM-dev/etc/bashrc
