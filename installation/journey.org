@@ -169,12 +169,12 @@ I've done during these years playing with installation.
       I follow the ~  OpenFOAM-dev Third-Party packages ~:
 
 ******* DONE makeGcc
-      #+BEGIN_SRC 
-      [superran@gra-login1 ThirdParty-dev]$ gcc --version
-      gcc (GCC) 5.4.0
-      #+END_SRC
+	#+BEGIN_SRC 
+	[superran@gra-login1 ThirdParty-dev]$ gcc --version
+	gcc (GCC) 5.4.0
+	#+END_SRC
 
-      I have 5.4.0, so I ignore this step.
+	I have 5.4.0, so I ignore this step.
 
 
 ******* DONE Allwmake  (Builds OpenMPI, Scotch etc.)
@@ -196,6 +196,17 @@ I've done during these years playing with installation.
 	QT_UIC_EXECUTABLE) (found version "4.8.6")
 	#+END_SRC
 	
+	Then this:
+	#+BEGIN_SRC sh
+	 ./makeParaView PARAVIEW_QT_VERSION=5
+	#+END_SRC
+
+	When I build ParaView again, I found I could ~module load
+	ParaView~ on on graham's tty, so I figure out how to use
+	ParaView on graham!
+
+	I will ignore the build process regardless the output from my
+	previous command.
 
 ******* what is Qt4?
 	
