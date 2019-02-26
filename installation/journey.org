@@ -208,6 +208,13 @@ I've done during these years playing with installation.
 	I will ignore the build process regardless the output from my
 	previous command.
 
+	I successfully build ParaView.
+
+	It is much easy to build ParaView from OpenFOAM rep.
+
+	Now, you can also find ParaView in:
+
+	~/home/superran/opt/ThirdParty-dev/platforms/linux64Gcc/ParaView-5.4.0/bin~
 ******* what is Qt4?
 	
 ****** Why OF not using export?
