@@ -130,6 +130,10 @@
                   crankset.c chain.c cogset.c tool_sets.h
                   cc -c groupset.c
        #+END_SRC
-
-       
+**** 2.3 How `make' Processes a Makefile
      
+     If you writing code, use `'.
+
+     If any source code is changed, when `make', the system will only
+     updated those object codes who are depedent on those source file.
+
