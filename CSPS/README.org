@@ -137,3 +137,6 @@
      If any source code is changed, when `make', the system will only
      updated those object codes who are depedent on those source file.
 
+**** 2.4 Variables Make Makefiles Simpler
+     
+     `$(objects)' is another format of `alias'.
