@@ -21,76 +21,76 @@
 * chapter 23
   Wow, so cool to use ~get~ command
   #+BEGIN_SRC 
-$ ftp ftp.gnu.org
-User (ftp.gnu.org:(none)): anonymous
-cd
-Remote directory ls
-Failed to change directory.
-ls
-ls
-CRYPTO.README
-MISSING-FILES
-MISSING-FILES.README
-README
-before-2003-08-01.md5sums.asc
-find.txt.gz
-gnu
-gnu+linux-distros
-ls-lrRt.txt.gz
-mirrors
-non-gnu
-old-gnu
-pub
-savannah
-third-party
-tmp
-video
-welcome.msg
-CRYPTO.README
-MISSING-FILES
-MISSING-FILES.README
-README
-before-2003-08-01.md5sums.asc
-find.txt.gz
-gnu
-gnu+linux-distros
-ls-lrRt.txt.gz
-mirrors
-non-gnu
-old-gnu
-pub
-savannah
-third-party
-tmp
-video
-welcome.msg
-cd gnu/diction
-ls
-diction-0.7.tar.gz
-diction-1.02.tar.gz
-diction-1.11.tar.gz
-diction-1.11.tar.gz.sig
-ls -al
-drwxrwxr-x    2 0        3003         4096 Sep 17  2007 .
-drwxrwxr-x  318 0        3003        12288 Jan 25 14:12 ..
--rw-r--r--    1 3003     65534       68940 Aug 28  1998 diction-0.7.tar.gz
--rw-r--r--    1 3003     65534       90957 Mar 04  2002 diction-1.02.tar.gz
--rw-r--r--    1 3003     65534      141062 Sep 17  2007 diction-1.11.tar.gz
--rw-r--r--    1 3003     65534         189 Sep 17  2007 diction-1.11.tar.gz.sig
-get diction-1.11.tar.gz
-bye
+  $ ftp ftp.gnu.org
+  User (ftp.gnu.org:(none)): anonymous
+  cd
+  Remote directory ls
+  Failed to change directory.
+  ls
+  ls
+  CRYPTO.README
+  MISSING-FILES
+  MISSING-FILES.README
+  README
+  before-2003-08-01.md5sums.asc
+  find.txt.gz
+  gnu
+  gnu+linux-distros
+  ls-lrRt.txt.gz
+  mirrors
+  non-gnu
+  old-gnu
+  pub
+  savannah
+  third-party
+  tmp
+  video
+  welcome.msg
+  CRYPTO.README
+  MISSING-FILES
+  MISSING-FILES.README
+  README
+  before-2003-08-01.md5sums.asc
+  find.txt.gz
+  gnu
+  gnu+linux-distros
+  ls-lrRt.txt.gz
+  mirrors
+  non-gnu
+  old-gnu
+  pub
+  savannah
+  third-party
+  tmp
+  video
+  welcome.msg
+  cd gnu/diction
+  ls
+  diction-0.7.tar.gz
+  diction-1.02.tar.gz
+  diction-1.11.tar.gz
+  diction-1.11.tar.gz.sig
+  ls -al
+  drwxrwxr-x    2 0        3003         4096 Sep 17  2007 .
+  drwxrwxr-x  318 0        3003        12288 Jan 25 14:12 ..
+  -rw-r--r--    1 3003     65534       68940 Aug 28  1998 diction-0.7.tar.gz
+  -rw-r--r--    1 3003     65534       90957 Mar 04  2002 diction-1.02.tar.gz
+  -rw-r--r--    1 3003     65534      141062 Sep 17  2007 diction-1.11.tar.gz
+  -rw-r--r--    1 3003     65534         189 Sep 17  2007 diction-1.11.tar.gz.sig
+  get diction-1.11.tar.gz
+  bye
   #+END_SRC
 
   Unfortunately, I got this:
-#+BEGIN_SRC sh
-$ ./configure
-checking build system type... ./config.guess: unable to guess system type
-configure: error: cannot guess build type; you must specify one
-#+END_SRC
+  #+BEGIN_SRC sh
+  $ ./configure
+  checking build system type... ./config.guess: unable to guess system type
+  configure: error: cannot guess build type; you must specify one
+  #+END_SRC
 
-I later follow the instruction of this book on a linux machine without
-any issue. But, this book did not explain too much info on how
-makefile works. So, I need do some further study.
+  I later follow the instruction of this book on a linux machine without
+  any issue. But, this book did not explain too much info on how
+  makefile works. So, I need do some further study.
 ** add-on reading
    [[http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/][this is good starting point]].
 *** GNU Manual: An Introduction to Makefiles
@@ -124,12 +124,12 @@ makefile works. So, I need do some further study.
        I think this is exactly why we need object file in building a
        bin program.
 
-#+BEGIN_SRC make
-     groupset.o : gear_levers.c brake_levers.c \
+       #+BEGIN_SRC make
+       groupset.o : gear_levers.c brake_levers.c \
                   brakes.c derailleurs.c bottom_bracket.c \
                   crankset.c chain.c cogset.c tool_sets.h
                   cc -c groupset.c
-#+END_SRC
+       #+END_SRC
 
        
      
