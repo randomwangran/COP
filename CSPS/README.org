@@ -140,3 +140,5 @@
 **** 2.4 Variables Make Makefiles Simpler
      
      `$(objects)' is another format of `alias'.
+
+**** 2.5 Letting `make' Deduce the Recipes
