@@ -300,3 +300,28 @@ I've done during these years playing with installation.
 
      #+END_SRC
 **** install petsc
+
+     We've installed it in:
+     #+BEGIN_SRC 
+     /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/petsc/3.9.0
+
+     #+END_SRC
+
+     #+BEGIN_SRC 
+     $ cmake -DDEAL_II_DIR=/home/superran/bin/ranDeaill /home/superran/opt/dealii-9.0.1/ -DDEAL_II_WITH_MPI = ON -DDEAL_II_WITH_PETSC = ON -DPETSC_DIR=     /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/petsc/3.9.0 
+     #+END_SRC
+
+     Error for not able to write.
+
+     Try the structure as dealii
+     #+BEGIN_SRC 
+     $ cmake -DDEAL_II_DIR=/home/superran/bin/ranDeaill /home/superran/opt/dealii-9.0.1/ -DDEAL_II_WITH_MPI = ON -DDEAL_II_WITH_PETSC = ON -DPETSC_DIR=/home/superran/bin/ranDeaill  /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/petsc/3.9.0      
+     #+END_SRC
+
+     Again, error:
+     #+BEGIN_SRC 
+     CMake Error: The source directory "/cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/intel2016.4/openmpi2.1/petsc/3.9.0" does not appear to contain CMakeLists.txt.     
+     Specify --help for usage, or press the help button on the CMake GUI.
+     #+END_SRC
+
+
