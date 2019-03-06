@@ -97,8 +97,7 @@ I've done during these years playing with installation.
 
 **** Scotch and PT-Scotch
 
-**** TODO ParaView
-
+**** DONE ParaView
 ***** environment for OpenFOAM
 
       #+BEGIN_SRC 
@@ -228,6 +227,76 @@ I've done during these years playing with installation.
 ***** comp
 **** CGAL
 ** add-ons
+*** dealii
+
+    The environment on CC is not okay for step-18, so I decide to
+    build it from source.
+
+    I build it from graham tty nodes.
+
+    After rebuilding, same error stil there:
+
+    #+BEGIN_SRC sh
+      -- Configuring incomplete, errors occurred!
+      [superran@gra-login3 step-18]$ cmake -DDEAL_II_DIR=/home/superran/bin/ranDeaill .
+      CMake Error at CMakeLists.txt:42 (MESSAGE):
+
+	Error! This tutorial requires a deal.II library that was configured with
+	the following options:
+
+	    DEAL_II_WITH_MPI = ON
+	    DEAL_II_WITH_PETSC = ON
+	    DEAL_II_PETSC_WITH_COMPLEX = OFF
+
+	However, the deal.II library found at /home/superran/bin/ranDeaill was
+	configured with these options
+
+	    DEAL_II_WITH_MPI = OFF
+	    DEAL_II_WITH_PETSC = OFF
+	    DEAL_II_PETSC_WITH_COMPLEX = 
+
+	    which conflict with the requirements.
+
+    #+END_SRC
+
+    It seems that I need to tell cmake to turn those things on before
+    `make install'.
+**** reinstall
+
+     #+BEGIN_SRC 
+     $ cmake -DDEAL_II_DIR=/home/superran/bin/ranDeaill /home/superran/opt/dealii-9.0.1/ -DEAL_II_WITH_MPI = ON -DEAL_II_WITH_PETSC = ON
+     #+END_SRC
+
+     There's a typo, you die if you are alex.
+
+     #+BEGIN_SRC 
+     $ cmake -DDEAL_II_DIR=/home/superran/bin/ranDeaill /home/superran/opt/dealii-9.0.1/ -DDEAL_II_WITH_MPI = ON -DDEAL_II_WITH_PETSC = ON
+     #+END_SRC
+
+     Then error:
+
+     #+BEGIN_SRC 
+      Could not find the petsc library!
 
 
+  Please ensure that the petsc library version 3.3.0 or newer is installed on
+  your computer and is configured with the same mpi options as deal.II
 
+  If the library is not at a default location, either provide some hints
+
+  for the autodetection:
+
+  PETSc installed with --prefix=<...> to a destination:
+
+      $ PETSC_DIR="..." cmake <...>
+      $ cmake -DPETSC_DIR="..." <...>
+
+  PETSc compiled in source tree:
+
+      $ PETSC_DIR="..."  PETSC_ARCH="..." cmake <...>
+      $ cmake -DPETSC_DIR="..." -DPETSC_ARCH="..." <...>
+
+  or set the relevant variables by hand in ccmake.
+
+     #+END_SRC
+**** install petsc
