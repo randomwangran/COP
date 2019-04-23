@@ -1,0 +1,35 @@
+page 50/281
+* nutshell
+
+  Page 32 is a summary of basics.
+
+* chapter 1
+** journey
+
+   Study regular expression is like studying how to create a car not
+   _drive_ a car.
+
+   This is something that also applied to the study of CFD.
+
+** Can you do reg-exp to 24 format time?
+
+   #+BEGIN_SRC sh
+     grep "[012][0-9]:[0-5][0-9]" example.org
+   #+END_SRC
+
+   #+RESULTS:
+   | 10:57 |
+   | 12:30 |
+   | 23:48 |
+   | 00:11 |
+   | 09:59 |
+
+   I don't know exactly what the book want me to write? I don't know
+   the meaning of this question.
+
+   My regular expression just search the time with a format that is 24
+   format. The result shows a positive result.
+
+* chapter 2
+** journey
+** 
