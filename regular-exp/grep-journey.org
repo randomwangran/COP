@@ -18,17 +18,50 @@ page 50/281
    #+END_SRC
 
    #+RESULTS:
-   | 10:57 |
-   | 12:30 |
-   | 23:48 |
-   | 00:11 |
-   | 09:59 |
+   |       10:57 |     |        |
+   |       12:30 |     |        |
+   |       23:48 |     |        |
+   |       00:11 |     |        |
+   |       09:59 |     |        |
+   | <2019-04-24 | Wed | 09:41> |
 
    I don't know exactly what the book want me to write? I don't know
    the meaning of this question.
 
    My regular expression just search the time with a format that is 24
    format. The result shows a positive result.
+
+
+   #+BEGIN_SRC sh
+     perl -w hello.pl 
+   #+END_SRC
+
+   #+RESULTS:
+   | test. |
+   | test. |
+   | what? |
+
+   #+BEGIN_SRC sh
+     $price =~ s/(\.\d\d[1-9]+)\d*/$1/
+   #+END_SRC
+
+   #+BEGIN_SRC perl
+     gopen FILE1, "<input.org" or die "Cannot open example.org!";
+     open FILE2, ">output.org" or die "Cannot open test.org!";
+
+     my $line;
+
+     while ($line = readline (FILE1)) {
+     print FILE2 $line;
+     }
+
+     close FILE1;
+     close FILE2;
+
+   #+END_SRC
+
+   #+RESULTS:
+   : 1
 
 * chapter 2
 ** journey
