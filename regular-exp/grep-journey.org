@@ -41,18 +41,27 @@ page 50/281
    | test. |
    | what? |
 
-   #+BEGIN_SRC sh
-     $price =~ s/(\.\d\d[1-9]+)\d*/$1/
-   #+END_SRC
+
+   In the if statement, input the regular expression.
+
+   Input: where is the source file that you want to process.
+
+   Output: is the data obtained.
+
+   All you need to do is press: 'C-c C-c' in the following code block:
 
    #+BEGIN_SRC perl
-     gopen FILE1, "<input.org" or die "Cannot open example.org!";
-     open FILE2, ">output.org" or die "Cannot open test.org!";
+     open FILE1, "<input.org" or die "Cannot open input.org!";
+     open FILE2, ">output.org" or die "Cannot open output.org!";
 
      my $line;
 
      while ($line = readline (FILE1)) {
-     print FILE2 $line;
+
+     if ( $line =~ m/12\.([0-9]*)/) {
+
+          print FILE2 "$1 \n";
+        }
      }
 
      close FILE1;
@@ -62,6 +71,9 @@ page 50/281
 
    #+RESULTS:
    : 1
+
+   
+   ###$price =~ s/(\.\d\d[1-9]+)\d*/$1/;
 
 * chapter 2
 ** journey
