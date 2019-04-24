@@ -77,4 +77,27 @@ page 50/281
 
 * chapter 2
 ** journey
-** 
+** problem sets
+*** page 52 delete extra digs
+    
+    #+BEGIN_SRC perl
+      open FILE1, "<input.org" or die "Cannot open input.org!";
+      open FILE2, ">output.org" or die "Cannot open output.org!";
+
+      my $line;
+
+      while ($line = readline (FILE1)) {
+
+        if ( $line =~ m/(\.\d\d[1-9]?)\d*/ ) {
+             print FILE2 "$1 \n";
+           }
+      }
+
+      close FILE1;
+      close FILE2;
+
+    #+END_SRC
+
+    #+RESULTS:
+    : 1
+
