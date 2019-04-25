@@ -88,7 +88,7 @@ page 50/281
 
       while ($line = readline (FILE1)) {
 
-        if ( $line =~ m/12\.([0-9]*)/) {
+        if ( $line =~ m/12\.(\d\d\d)/) {
              print FILE2 "$1 \n";
            }
       }
@@ -97,6 +97,9 @@ page 50/281
      close FILE2;
 
    #+END_SRC
+
+   #+RESULTS:
+   : 1
 
 * chapter 3
 
