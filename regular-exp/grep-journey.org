@@ -18,12 +18,6 @@ page 50/281
    #+END_SRC
 
    #+RESULTS:
-   |       10:57 |     |        |
-   |       12:30 |     |        |
-   |       23:48 |     |        |
-   |       00:11 |     |        |
-   |       09:59 |     |        |
-   | <2019-04-24 | Wed | 09:41> |
 
    I don't know exactly what the book want me to write? I don't know
    the meaning of this question.
@@ -33,13 +27,11 @@ page 50/281
 
 
    #+BEGIN_SRC sh
-     perl -w hello.pl 
+     perl -w hello.pl
    #+END_SRC
 
    #+RESULTS:
-   | test. |
-   | test. |
-   | what? |
+   : Greeting from Emacs!.
 
 
    In the if statement, input the regular expression.
@@ -104,5 +96,48 @@ page 50/281
   difference between different programming language.
 
 * chapter 4
-    
+  
+   #+NAME: test
+   #+begin_src perl
 
+      open FILE1, "<input.org" or die "Cannot open input.org!";
+      open FILE2, ">output.org" or die "Cannot open output.org!";
+
+      my $line;
+
+      while ($line = readline (FILE1)) {
+
+        if ( $line =~ m/^.*([0-9]+)/) {
+             print FILE2 "$1 \n";
+           }
+      }
+
+     close FILE1;
+     close FILE2;
+     #+end_src
+
+   #+RESULTS: test
+   : 1
+
+    #+RESULTS:
+
+
+    #+begin_quote
+    this is a quote.
+    #+end_quote
+
+    grep-journey.org
+
+    #+CALL: grep-journey.org:test()
+
+    Today, I encountered strange behavior of my org-mode:
+
+    - <s not working
+    - cannot run code block 
+
+      "Evaluation of this perl code block is disabled."
+
+    This is a bug!
+
+    After reading [[https://emacs.stackexchange.com/questions/28441/org-mode-9-unable-to-eval-code-blocks][this]], I delete the org-mode in elpa and restart my
+    emacs. It use the default org-mode that bundle with my emacs.
