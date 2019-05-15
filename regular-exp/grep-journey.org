@@ -67,6 +67,7 @@ page 50/281
    
    ###$price =~ s/(\.\d\d[1-9]+)\d*/$1/;
 
+
 * chapter 2
 ** journey
 ** problem sets
@@ -148,3 +149,28 @@ page 50/281
 * my reg-exp
   
   - extract branch name: m/(On branch) ([a-zA-Z0-9]*)/
+
+** tests
+
+      #+BEGIN_SRC perl
+        open FILE1, "<input.org" or die "Cannot open input.org!";
+        open FILE2, ">output.org" or die "Cannot open output.org!";
+
+        my $line;
+
+        while ($line = readline (FILE1)) {
+
+        if ( $line =~ m/[0-9]*\.+[0-9]+/) {
+
+             print FILE2 "$line";
+           }
+        }
+
+        close FILE1;
+        close FILE2;
+
+   #+END_SRC
+
+   #+RESULTS:
+   : 1
+
