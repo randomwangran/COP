@@ -50,9 +50,9 @@ page 50/281
 
      while ($line = readline (FILE1)) {
 
-     if ( $line =~ m/12\.([0-9]*)/) {
+     if ( $line =~ m/(On branch) ([a-zA-Z0-9]*)/) {
 
-          print FILE2 "$1 \n";
+          print FILE2 "$2";
         }
      }
 
@@ -144,3 +144,7 @@ page 50/281
 
     After reading [[https://emacs.stackexchange.com/questions/28441/org-mode-9-unable-to-eval-code-blocks][this]], I delete the org-mode in elpa and restart my
     emacs. It use the default org-mode that bundle with my emacs.
+
+* my reg-exp
+  
+  - extract branch name: m/(On branch) ([a-zA-Z0-9]*)/
