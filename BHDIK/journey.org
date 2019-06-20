@@ -52,3 +52,30 @@
 
   For the lower part of the 16x16 grid, i.e., the bus, 's', and 'e'
   bit, what's their role? What's their functionality?
+
+* Back to the Byte
+
+  "Enabler": 8 AND gates.
+
+  If you connect a Byte with an "Enabler" then you got a "Register".
+
+* The Magic Bus
+
+  What's gona happen when enable the output of two registers onto the
+  bus at the same time?
+
+  Am I correct:
+
+  When you want to "copy" the information from R1 to R4, one first turn on
+  'e', then turn on R4 'e' and 's'. The "copy" is done.
+
+  And it turns out that the turning of 's' is slight different from
+  'e': you turn 's' on then close it.
+
+* More Gate Combinations
+
+  This two NOT gates and four NAND gates are hard to understand.
+  
+  Forget what's NOT gate.
+
+  (Recap: NAND gates: Negtive AND gate.)
