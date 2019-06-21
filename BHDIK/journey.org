@@ -43,15 +43,6 @@
   The 'decoder' is hard to follow, but if you set back and look the
   overall structure of the system, I can understand what's going here:
   by reading the output, we now what's input.
-* First half of the computer
-
-  What's cubbyholes? It's a matrix that you can read one of hole each
-  time.
-
-  What's register? It's a combination of byte and enabler.
-
-  For the lower part of the 16x16 grid, i.e., the bus, 's', and 'e'
-  bit, what's their role? What's their functionality?
 
 * Back to the Byte
 
@@ -79,3 +70,15 @@
   Forget what's NOT gate.
 
   (Recap: NAND gates: Negtive AND gate.)
+* First half of the computer
+
+  What's cubbyholes? It's a matrix that you can read one of hole each
+  time.
+
+  What's register? It's a combination of byte and enabler.
+
+  For the lower part of the 16x16 grid, i.e., the bus, 's', and 'e'
+  bit, what's their role? What's their functionality?
+
+  What's the function 's' and 'e' that connect to Register? Can we
+  directly connect 'x' to the BUS?
