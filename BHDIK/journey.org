@@ -82,3 +82,15 @@
 
   What's the function 's' and 'e' that connect to Register? Can we
   directly connect 'x' to the BUS?
+* Numbers
+  - ||||/||||/||||/
+* The Other Half Of The Computer
+  R0,R1,R2,R3,ACC,TMP
+* Gates
+  | a | b | NAND | AND | OR | XOR |
+  |---+---+------+-----+----+-----|
+  | 0 | 0 |    1 |   0 |  0 |   0 |
+  | 0 | 1 |    1 |   0 |  1 |   1 |
+  | 1 | 0 |    1 |   0 |  1 |   1 |
+  | 1 | 1 |    0 |   1 |  1 |   0 |
+* The Left and Right Shifters
