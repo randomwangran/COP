@@ -112,3 +112,13 @@
   Things getting harder.
 * The Arithmetic and Logic Unit
   Then go back to find what's decoder. ALU looks not that complicated.
+* More of the Processor
+  ACC: just an another Register, but it temporarily store the output
+  of ALU.
+
+  MAR:The one remember the location of the bytes in RAM. For example,
+  in a 256 bytes Memory, one need a register, which is connected to
+  two 4x16 decoders, to 'remember' where the byte is.
+* The Clock
+  Cool, now I know what's enable and set bits on a register. Just
+  connect the clock and 'delayed clock' the two gates: AND and OR.
