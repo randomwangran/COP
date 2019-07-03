@@ -160,3 +160,7 @@
 |          |                                                                        |
 -----------+------------------------------------------------------------------------+
 #+END_VERSE
+* Everything Under Control
+* Doing Something Useful Revised
+  What's the difference between stepper and Clock? We have more
+  'switches' if it is a stepper otherwise what can you do with one clock?
