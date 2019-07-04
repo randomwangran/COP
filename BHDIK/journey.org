@@ -164,3 +164,23 @@
 * Doing Something Useful Revised
   What's the difference between stepper and Clock? We have more
   'switches' if it is a stepper otherwise what can you do with one clock?
+* What's Next
+* The First Great Invention
+  IR: "Instruction Register" → tells CPU to do one of seven things:
+
+  - add
+  - shift right
+  - shift left
+  - Not
+  - And
+  - Or
+  - EOR
+
+  Set (decide) the wires in the control section to do the desired
+  operation.
+
+  Step 1 does two things: fetch the address in IAR to MAR; and add 1
+  to the value in IAR (don't know why do this).
+
+  "Putting a series of instructions in RAM and having the CPU execute
+  them is a great invention."
