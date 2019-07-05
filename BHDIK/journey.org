@@ -184,3 +184,8 @@
 
   "Putting a series of instructions in RAM and having the CPU execute
   them is a great invention."
+* Instructions
+* The Arithmetic or Logic Instructions
+  IRA: Instruction Address Register.
+
+  What is computer language? The idea of using a shorthand.
