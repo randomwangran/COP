@@ -189,3 +189,4 @@
   IRA: Instruction Address Register.
 
   What is computer language? The idea of using a shorthand.
+* The Load and Store Instruction
