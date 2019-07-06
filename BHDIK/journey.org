@@ -189,4 +189,21 @@
   IRA: Instruction Address Register.
 
   What is computer language? The idea of using a shorthand.
-* The Load and Store Instruction
+* TODO The Load and Store Instruction
+  How the first instruction moves a byte from RAM to a register?
+
+  Try to understand → When 3x8 decoder is on '000' (step 4), it enables Reg A
+  and sets MAR, which results MAR 'store' the bytes in Reg A? Then in
+  Step 5, the bytes in RAM will 'store' the data to Reg B.
+
+  The issue is that in the book:
+
+  #+BEGIN_VERSE
+  The Instruction Code for the Load instruction is 0000. And LD in the table means: → Load RB from RAM address in RA.
+  #+END_VERSE
+
+  It seems that I have the opposite meaning. What' wrong with my
+  understanding?
+
+  Confused: why Reg A has four registers? Any difference between those
+  registers? Same for the Reg B.
