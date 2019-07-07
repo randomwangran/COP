@@ -207,3 +207,5 @@
 
   Confused: why Reg A has four registers? Any difference between those
   registers? Same for the Reg B.
+
+  Test.
