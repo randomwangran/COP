@@ -184,6 +184,9 @@
 
   "Putting a series of instructions in RAM and having the CPU execute
   them is a great invention."
+
+  IAR: Instruction Address Register. → store the RAM address of the
+  next instruction what will move into IR.
 * Instructions
 * The Arithmetic or Logic Instructions
   IRA: Instruction Address Register.
@@ -207,5 +210,13 @@
 
   Confused: why Reg A has four registers? Any difference between those
   registers? Same for the Reg B.
+* The Data Instruction
+  Kinda lost. Is this Load and Store Instruction? Alias? No, they are
+  a new type of instruction.
 
-  Test.
+  The difference is that where in the RAM it will get byte.
+
+  In Load instruction, it only have specify two registers where the
+  byte coming and going but nothing about the bytes itself. Is this
+  the fundamental difference between Load/store Instruction with Data
+  Instruction?
