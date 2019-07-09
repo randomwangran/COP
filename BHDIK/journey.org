@@ -226,3 +226,6 @@
 
   Then, it's the IR holds the instruction or The RAM (IAR pointing
   towards to) holds the instruction?
+* Another Way to Jump
+* The Third Great Invention
+  FLAG.
