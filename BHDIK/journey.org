@@ -217,6 +217,12 @@
   The difference is that where in the RAM it will get byte.
 
   In Load instruction, it only have specify two registers where the
-  byte coming and going but nothing about the bytes itself. Is this
+  byte coming and going but nothing about the bytes. Is this
   the fundamental difference between Load/store Instruction with Data
   Instruction?
+* The Second Great Invention
+  Jump instruction. Wait, what is IRA? It's the instruction register
+  address.
+
+  Then, it's the IR holds the instruction or The RAM (IAR pointing
+  towards to) holds the instruction?
