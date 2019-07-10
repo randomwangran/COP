@@ -230,3 +230,17 @@
 * The Third Great Invention
   FLAG.
   → revisiting arithmetic instruction
+  How jump instruction works? What's its functionality?
+
+  If the IR is start with 0101, and the FLAG is in one of state. What
+  will happen?
+
+  So, if not jump, what will happen?
+
+  change IAR → change the next instruction in RAM.
+
+  I suddenly don't know what's the meaning of the 3x8 decoder just
+  above the IR.
+
+  What is MAR? What's difference between MAR and IAR? I think IAR is a
+  just a special MAR.
