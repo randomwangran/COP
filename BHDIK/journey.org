@@ -244,3 +244,49 @@
 
   What is MAR? What's difference between MAR and IAR? I think IAR is a
   just a special MAR.
+* Ta Daa
+  This is way more complicated!
+* A Few More Words on Arithmetic
+  Good question: why NOTting and Adding 1 result in substraction?
+
+  Oh my deal author, You skip the most interesting issue to me.
+* The Outside World
+* The Keyboard
+* The Display Scree
+* The Final Word on Codes
+* The Disk
+  Putting something into CPU register is called LOADING.
+* Excuse Me Ma'am
+* That's All Folks
+  
+  Good point:
+  #+BEGIN_QUOTE
+  The variety of things the computer can be made do is limited only by
+  the imagination and cleverness of the people who create the programs
+  for them to run.
+  #+END_QUOTE
+* Hardware and Software
+  Software is how the physical thing things are set.
+* Program
+* The Operating System
+* Language
+* The File System
+* Error
+* Computer Diseases
+* Firmware
+* Boots
+* Digital vs Analog
+* I lied-sort of
+* Philosophy
+  Sounds good.
+  #+BEGIN_QUOTE
+    If someone ever writes this program that can write any new needed
+    program ...
+  #+END_QUOTE
+
+  This is a sad story:
+
+  #+BEGIN_QUOTE
+  It doesn't know anything.
+  #+END_QUOTE
+
