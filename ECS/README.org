@@ -1,0 +1,9 @@
+The Elements of Computing Systems
+
+By Noam Nisan and Shimon Schocken
+
+https://www.nand2tetris.org/course
+
+* journey
+  <2019-07-14 Sun>: go though the website and familiar with the
+  structure of this journey and the book.
