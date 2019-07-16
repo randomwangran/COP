@@ -7,3 +7,23 @@ https://www.nand2tetris.org/course
 * journey
   <2019-07-14 Sun>: go though the website and familiar with the
   structure of this journey and the book.
+
+* Project 1
+
+  | Not       |
+  | And       |
+  | Or        |
+  | Xor       |
+  | Mux       |
+  | DMux      |
+  | Not16     |
+  | And16     |
+  | Or16      |
+  | Mux16     |
+  | Or8Way    |
+  | Mux4Way16 |
+  | Mux8Way16 |
+  | DMux4Way  |
+  | DMux8Way  |
+
+  <2019-07-15 Mon> End up watching https://www.youtube.com/watch?v=ZBZnSteT72A
