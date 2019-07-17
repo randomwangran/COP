@@ -26,4 +26,9 @@ https://www.nand2tetris.org/course
   | DMux4Way  |
   | DMux8Way  |
 
-  <2019-07-15 Mon> End up watching https://www.youtube.com/watch?v=ZBZnSteT72A
+  <2019-07-15 Mon> End up watching
+  https://www.youtube.com/watch?v=ZBZnSteT72A
+
+  <2019-07-16 Tue> → Chapter 1 Page 4
+
+  NAND: it can build any type of gates only using NAND.
