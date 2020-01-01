@@ -1,3 +1,6 @@
 [submodule "Forest/myHermes"]
 	path = Forest/myHermes
 	url = https://github.com/horizon-blue/Hermes.git
+[submodule "CPU"]
+	path = CPU
+	url = https://github.com/randomwangran/CPU
